@@ -12,7 +12,8 @@ body{
     background-color: rgba(0, 0, 0, 0.87);
 }
 .hero{
-    background-color: aqua;
+    background-color: black;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
 }
