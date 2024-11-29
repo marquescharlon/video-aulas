@@ -1,7 +1,16 @@
+/* HTML */
+.html
+{
+    display: flex;
+}
 /* NAVBAR */
-.header{
-
-}
-.navbar{
-    background-color: cadetblue !important;
-}
+    .navbar-global{
+        .navbar{
+            background-color: cadetblue !important;    
+        }
+        .navbar-nav{
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        } 
+    }
