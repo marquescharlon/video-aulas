@@ -1,3 +1,8 @@
+:root {
+    --color-ice: #30b7eb;
+    --color-ice-hover: #1f6c8b;
+}
+
 @font-face {
     font-family: 'Prelo Extra Bold';
     src: url('assets/prelo-extra-bold.woff2') format('woff2'),
@@ -6,25 +11,34 @@
     font-style: normal;
 }
 
+.btn {
+    border-radius: 30px;
+    padding: .6em 1.2em;
+}
+
+.btn, .navbar {
+    font-family: 'Nunito', sans-serif;
+}
+
 .btn-primary {
-    background-color: #30b7eb !important;
-    border-color: #30b7eb !important;
+    background-color: var(--color-ice) !important;
+    border-color: var(--color-ice) !important;
 }
 
 .btn-primary:hover {
-    background-color: #1f6c8b !important;
-    border-color: #1f6c8b  !important;
+    background-color: var(--color-ice-hover) !important;
+    border-color: var(--color-ice-hover) !important;
 }
 
 .btn-outline-primary {
-    color: #30b7eb !important;
-    border-color: #30b7eb !important;
+    color: var(--color-ice) !important;
+    border-color: var(--color-ice) !important;
 }
 
 .btn-outline-primary:hover {
     color: white !important;
-    background-color: #eaf8fd !important;
-    border-color: #30b7eb !important;
+    background-color: var(--color-ice) !important;
+    border-color: var(--color-ice) !important;
 }
 
 .navbar-brand {
@@ -33,4 +47,29 @@
     text-transform: lowercase;
     letter-spacing: .25px;
     font-size: 1.4em;
+}
+
+.nav-link {
+    position: relative;
+    color: black;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: var(--color-ice) !important;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color-ice);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
