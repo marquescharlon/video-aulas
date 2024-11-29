@@ -1,0 +1,12 @@
+html{
+    font-size: 62.5%;
+    /* Alterando tamanho da fonte padrão */
+}
+body{
+    font-size: 1.6rem;
+    /* Alterando o tamanho da fonte padrão. Desse modo, os tamanhos das fontes poderão ser controlados pelos usarios(aqueles que tiverem diferente configurações de tamanho de fonte) */
+    min-width: 100vw;
+    /* Alterando o valor minimo da largura, para que ele ocupe pelo menos toda a tela do user em condições normais*/
+    min-height: 100vh;
+    /* Alterando o valor minimo da altura, para que ela ocupe pelo menos toda a tela do user em condições normais*/
+}
