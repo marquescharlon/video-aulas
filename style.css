@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Prelo Extra Bold';
+    src: url('assets/prelo-extra-bold.woff2') format('woff2'),
+        url('assets/prelo-extra-bold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.navbar-brand {
+    color: #114353;
+    font-family: 'Prelo Extra Bold', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: .25px;
+    font-size: 1.4em;
+}
