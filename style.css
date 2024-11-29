@@ -9,4 +9,5 @@ body{
     /* Alterando o valor minimo da largura, para que ele ocupe pelo menos toda a tela do user em condições normais*/
     min-height: 100vh;
     /* Alterando o valor minimo da altura, para que ela ocupe pelo menos toda a tela do user em condições normais*/
+    background-color: black;
 }
