@@ -11,12 +11,12 @@ body{
     /* Alterando o valor minimo da altura, para que ela ocupe pelo menos toda a tela do user em condições normais*/
     background-color: rgba(0, 0, 0, 0.87);
 }
-header{
+.hero{
     background-color: aqua;
 }
-header nav{
+.hero_nav{
     background-color: aqua;
 }
-header nav div{
+.hero_nav_content{
     background-color: aqua;
 }
