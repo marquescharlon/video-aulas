@@ -13,10 +13,6 @@ body{
 }
 .hero{
     background-color: aqua;
-}
-.hero_nav{
-    background-color: aqua;
-}
-.hero_nav_content{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
 }
