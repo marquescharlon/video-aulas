@@ -9,5 +9,14 @@ body{
     /* Alterando o valor minimo da largura, para que ele ocupe pelo menos toda a tela do user em condições normais*/
     min-height: 100vh;
     /* Alterando o valor minimo da altura, para que ela ocupe pelo menos toda a tela do user em condições normais*/
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+header{
+    background-color: aqua;
+}
+header nav{
+    background-color: aqua;
+}
+header nav div{
+    background-color: aqua;
 }
