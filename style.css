@@ -71,3 +71,27 @@ footer a:hover {
 .card:hover {
     transform: scale(1.05);
 }
+
+.social-media-link {
+    transition: background-color 0.3s ease;
+}
+
+.social-media-link:hover {
+    background-color: var(--bs-border-color);
+}
+
+#facebook:hover {
+    color: #0866FF !important;
+}
+
+#instagram:hover {
+    color: #EF12D1 !important;
+}
+
+#twitter:hover {
+    color: #0CA2F3 !important;
+}
+
+#youtube:hover {
+    color: #FF0033 !important;
+}
