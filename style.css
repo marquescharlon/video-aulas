@@ -1,12 +1,11 @@
 /* Cor de fundo da navbar */
 .navbar {
-    background-color: #333; /* Troque por qualquer cor ou use transparência */
+    background-color: #ce3434; /* Troque por qualquer cor ou use transparência */
 }
 
-/* Cor do texto da marca e links */
-.navbar .navbar-brand,
+/* Cor do texto de links */
 .navbar .nav-link {
-    color: #fff; /* Branco */
+    color: #fff; 
     font-weight: bold;
 }
 
@@ -23,20 +22,12 @@
 
 /* Botão de toggler (hambúrguer) */
 .navbar-toggler {
-    border-color: #fff; /* Borda branca */
-}
-
-.navbar-toggler-icon {
-    background-color: #fff; /* Ícone branco */
+    border-color: #fff; 
 }
 
 /* Estilo quando a navbar está colapsada */
 .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto translúcido */
+    background-color: rgba(13, 51, 156, 0.8); /* Fundo preto translúcido */
     padding: 1rem;
 }
 
-/* Links desativados */
-.navbar .nav-link.disabled {
-    color: #aaa; /* Cinza claro */
-}
