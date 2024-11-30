@@ -12,7 +12,7 @@ body{
     background-color: rgba(0, 0, 0, 0.87);
 }
 .nhero_nav{
-    background-color: rgb(171, 170, 170);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     display: flex;
     gap: 1rem;
