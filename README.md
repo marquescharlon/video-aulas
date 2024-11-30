@@ -12,5 +12,5 @@
 - [x] Enviar o link do seu repositório.
 
 # Backlog
-- [] Design do site
-- [] Trabalhar na página css do site
+- [ ] Design do site
+- [ ] Trabalhar na página css do site
