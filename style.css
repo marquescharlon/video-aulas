@@ -55,6 +55,11 @@ footer {
     color: black;
 }
 
+hr {
+    border-top: var(--bs-border-color) 1px solid;
+    opacity: 1;
+}
+
 footer a {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
