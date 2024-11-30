@@ -40,3 +40,17 @@ body{
     background-color: #430000;
     color: #ff0000;
 }
+.breadcrumb{
+    color: black;
+    padding-left: 1rem;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #ff0000;
+}
+.breadcrumb-item.active {
+    color: #430000;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ff0000;
+}
