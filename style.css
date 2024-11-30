@@ -15,8 +15,14 @@ body{
     background-color: rgb(0, 0, 0);
     color: aliceblue;
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 5rem;
+    padding: 1.5rem;
+    padding-right: 4rem;
+}
+.nhero_nav_list{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
 }
