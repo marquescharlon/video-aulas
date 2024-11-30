@@ -29,8 +29,13 @@ body{
     margin: 0;
 }
 .nav-link{
-    padding: 2rem;
-    outline: 1px solid rgba(71, 70, 70, 0.482);
+    padding: 1rem;
+    /* outline: 1px solid rgba(71, 70, 70, 0.482); */
     width: 20rem;
     text-align: center;
+    color: #ff00009f;
+}
+.nav-link:hover{
+    background-color: #430000;
+    color: #ff0000;
 }
