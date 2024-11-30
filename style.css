@@ -55,7 +55,12 @@ footer {
     color: black;
 }
 
-.nav-link:hover {
+footer a {
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:hover,
+footer a:hover {
     color: var(--color-ice) !important;
 }
 
