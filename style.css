@@ -5,9 +5,18 @@ body
 
 .box
 {
+    padding-top: 145px;
+    padding-left: 235px;
     width: 75vw;
     height: 100vh;
     background-color: rgba(28, 55, 78, 0.514);
+}
+
+.card-body
+{
+    background-color: rgba(7, 30, 49, 0.733);
+    border-color: aliceblue;
+    border-style: double;
 }
 
 .card-title
@@ -20,4 +29,10 @@ body
 {
     font-size: medium;
     color: aliceblue;
+}
+
+.btn
+{
+    border-color: aliceblue;
+    background-color: rgb(4, 44, 77);
 }
