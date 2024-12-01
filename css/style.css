@@ -45,5 +45,9 @@
             width: 500px;
             height: auto;
         }
+        .card-img-top{
+            height: auto;
+            width: 100%;
+        }
 
     }
