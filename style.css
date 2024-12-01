@@ -121,3 +121,27 @@ body{
     background-color: black;
     color: aliceblue;
 }
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    gap: 1rem;
+}
+.footer_title{
+    color: #430000;
+}
+.footer_rede{
+    display: flex;
+    gap: 3rem;
+    
+}
+.footer_rede a{
+    color: #ff0000;
+}
+.footer_rede a:hover{
+    color: #430000;
+}
