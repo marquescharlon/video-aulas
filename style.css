@@ -54,3 +54,6 @@ body{
 .breadcrumb-item+.breadcrumb-item::before {
     color: #ff0000;
 }
+.container_title{
+    color: aliceblue;
+}
