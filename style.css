@@ -1,0 +1,31 @@
+/* Navbar Styles */
+.bg-navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    background-color: #aa7264;
+    padding: 10px 20px;
+  }
+
+  .navbar a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #c26c61; /* Cor do sublinhado */
+    left: 0;
+    bottom: -2px;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
+}
+
+  
