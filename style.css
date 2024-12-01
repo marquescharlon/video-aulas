@@ -137,5 +137,5 @@ footer{
 .footer_rede{
     display: flex;
     gap: 3rem;
-    a
+    color: #ff0000;
 }
