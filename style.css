@@ -84,3 +84,8 @@ body{
     color: antiquewhite;
     line-height: 2;
 }
+.container_content_center_volumes_title{
+    color: aliceblue;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
