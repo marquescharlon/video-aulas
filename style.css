@@ -1,0 +1,89 @@
+body
+{
+    background-color: rgb(93, 116, 136);
+}
+
+.box
+{
+    padding-top: 68px;
+    padding-left: 335px;
+    padding-right: 235px;
+    width: 75vw;
+    height: 115vh;
+    background-color: rgba(28, 55, 78, 0.514);
+}
+
+.card
+{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: aliceblue;
+    border-style: double;
+}
+
+.card-body
+{
+    background-color: rgba(7, 30, 49, 0.733);
+    border-color: aliceblue;
+    border-style: double;
+}
+
+.card-title
+{
+    font-size: larger;
+    color: aliceblue;
+}
+
+.card-text
+{
+    font-size: medium;
+    color: aliceblue;
+}
+
+.btn
+{
+    border-color: aliceblue;
+    background-color: rgb(4, 44, 77);
+    max-width: 115px;
+}
+
+.foot
+{
+    width: 75vw;
+    height: 36vh;
+    background-color: rgba(28, 55, 78, 0.514);
+}
+
+.form-control
+{
+    max-width: 290px;
+    background-color: rgba(46, 122, 185, 0.301);
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: double;
+}
+
+.botao-redondo
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ffffff00;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.botao-redondo:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.botao-redondo:active
+{
+    transform: scale(0.95);
+}
