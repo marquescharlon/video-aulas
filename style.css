@@ -93,3 +93,6 @@ body{
     display: flex;
     gap: 2rem;
 }
+.card{
+    flex-basis: calc(28% - 2rem);
+}
