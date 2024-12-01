@@ -77,3 +77,10 @@ body{
     color: aliceblue;
     font-weight: 800;
 }
+.container_content_center_review_subtitle{
+    color: aliceblue;
+}
+.container_content_center_review_paragrafo{
+    color: antiquewhite;
+    line-height: 2;
+}
