@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* HTML */
 .html
 {
@@ -6,11 +7,15 @@
 /* NAVBAR */
     .navbar-global{
         .navbar{
-            background-color: cadetblue !important;    
+            background-color: cadetblue !important;
+            font-style: normal;
+            font-size: 20px;
+            font-family: "Open Sans", sans-serif;
         }
         .navbar-nav{
             margin-top: 10px;
             margin-left: auto;
             margin-right: auto;
         } 
+        
     }
