@@ -39,6 +39,14 @@
             background-color: transparent;
         }
     }
+    /* DESTAQUE */
+    .destaque{
+        .display-4{
+            align-items: center;
+            text-align: center;
+            align-self: center;
+        }
+    }
     /* CARDS */
     .criar-cards{
         .col{
@@ -53,5 +61,7 @@
             height: auto;
             width: 100%;
         }
-
+        .row{
+            width: auto;
+        }
     }
