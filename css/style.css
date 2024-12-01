@@ -34,3 +34,8 @@
             color: white;
         }   
     }
+    .container{
+        .btn{
+            background-color: transparent;
+        }
+    }
