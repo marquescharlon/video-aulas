@@ -9,3 +9,15 @@ body
     height: 100vh;
     background-color: rgba(28, 55, 78, 0.514);
 }
+
+.card-title
+{
+    font-size: larger;
+    color: aliceblue;
+}
+
+.card-text
+{
+    font-size: medium;
+    color: aliceblue;
+}
