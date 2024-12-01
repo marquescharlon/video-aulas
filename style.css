@@ -43,5 +43,14 @@ body
 {
     border-color: aliceblue;
     background-color: rgb(4, 44, 77);
+    max-width: 115px;
 }
 
+.form-control
+{
+    max-width: 290px;
+    background-color: rgba(46, 122, 185, 0.301);
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: double;
+}
