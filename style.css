@@ -61,3 +61,29 @@ body
     border-color: aliceblue;
     border-style: double;
 }
+
+.botao-redondo
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ffffff00;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.botao-redondo:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.botao-redondo:active
+{
+    transform: scale(0.95);
+}
