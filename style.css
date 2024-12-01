@@ -89,3 +89,7 @@ body{
     font-weight: 800;
     margin-bottom: 2rem;
 }
+.container_content_center_volumes_content{
+    display: flex;
+    gap: 2rem;
+}
