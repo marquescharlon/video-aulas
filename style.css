@@ -96,3 +96,6 @@ body{
 .card{
     flex-basis: calc(28% - 2rem);
 }
+.card img {
+    width: 10px;
+}
