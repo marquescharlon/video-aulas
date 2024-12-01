@@ -137,5 +137,11 @@ footer{
 .footer_rede{
     display: flex;
     gap: 3rem;
+    
+}
+.footer_rede a{
     color: #ff0000;
+}
+.footer_rede a:hover{
+    color: #430000;
 }
