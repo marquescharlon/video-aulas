@@ -133,3 +133,7 @@ footer{
 .footer_title{
     color: #430000;
 }
+.footer_rede{
+    display: flex;
+    gap: 3rem;
+}
