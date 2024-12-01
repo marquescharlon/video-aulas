@@ -40,4 +40,10 @@
         }
     }
     /* CARDS */
-    
+    .criar-cards{
+        .card{ 
+            width: 500px;
+            height: auto;
+        }
+
+    }
