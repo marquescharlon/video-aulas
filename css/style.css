@@ -25,6 +25,9 @@
             background-color: white;
         }
         .container{
-            width;
+            border: 1px solid aquamarine;
+            border-radius: 10px;
+            width:auto;
+            gap: 10px;
         }
     }
