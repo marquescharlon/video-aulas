@@ -61,3 +61,7 @@ body{
 .container_content{
     display: flex;
 }
+.container_content_left_img img{
+    width: 250px;
+    border-radius: 20px;
+}
