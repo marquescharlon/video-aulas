@@ -41,6 +41,10 @@
     }
     /* CARDS */
     .criar-cards{
+        .col{
+            width: auto;
+            height: auto;
+        }
         .card{ 
             width: 500px;
             height: auto;
