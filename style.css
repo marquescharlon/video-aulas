@@ -1,9 +1,9 @@
 /* Navbar Styles */
-.navbar {
+.bg-navbar {
     display: flex;
     justify-content: space-between;
-    font-family: 'Oswald', sans-serif;
-    background-color: #cfa99d;
+    font-family: 'Kanit', sans-serif;
+    background-color: #aa7264;
     padding: 10px 20px;
   }
   
