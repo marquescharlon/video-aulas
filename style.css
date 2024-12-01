@@ -104,4 +104,9 @@ body{
     font-size: 2rem;
     margin-top: .5rem;
     margin-bottom: .5rem;
+    padding-left: 1rem;
+}
+.card-text{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
