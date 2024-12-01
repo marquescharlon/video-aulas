@@ -95,6 +95,7 @@ body{
 }
 .card{
     flex-basis: calc(28% - 2rem);
+    background-color: whitesmoke;
 }
 .card img {
     width: 100%;
@@ -109,4 +110,14 @@ body{
 .card-text{
     padding-left: 2rem;
     padding-right: 2rem;
+}
+.btn{
+    border: 1px solid black;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    background-color: black;
+    color: aliceblue;
 }
