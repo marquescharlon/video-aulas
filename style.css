@@ -46,6 +46,13 @@ body
     max-width: 115px;
 }
 
+.foot
+{
+    width: 75vw;
+    height: 35vh;
+    background-color: rgba(28, 55, 78, 0.514);
+}
+
 .form-control
 {
     max-width: 290px;
