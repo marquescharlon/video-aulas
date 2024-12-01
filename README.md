@@ -8,7 +8,7 @@ necessidade de contribuí-lo, portanto, capaz de trabalhar com versionamento e f
 Para isso é preciso:
 1. Realizar o fork do repositório: xxx
 2. Incluir os links do Bootstrap no projeto;
-3. (Criar uma branch a partir da DEVELOP para cada tarefa, exemplo: feature/criar-navbar
+3. Criar uma branch a partir da DEVELOP para cada tarefa, exemplo: feature/criar-navbar
 • header - Adicionar a barra de menu.
 • main - Adicionar quatro cards dentro de um container.
 • footer - Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc.
