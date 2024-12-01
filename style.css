@@ -1,0 +1,9 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    background-color: #cfa99d;
+    padding: 10px 20px;
+  }
+  
