@@ -65,3 +65,8 @@ body{
     width: 250px;
     border-radius: 20px;
 }
+.container_content_left_content_subtitle{
+    color: aliceblue;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
