@@ -56,4 +56,8 @@ body{
 }
 .container_title{
     color: aliceblue;
+    margin-bottom: 2rem;
+}
+.container_content{
+    display: flex;
 }
