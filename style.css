@@ -129,6 +129,7 @@ footer{
     justify-content: center;
     margin-top: 3rem;
     padding: 2rem;
+    gap: 1rem;
 }
 .footer_title{
     color: #430000;
@@ -136,4 +137,5 @@ footer{
 .footer_rede{
     display: flex;
     gap: 3rem;
+    a
 }
