@@ -5,8 +5,9 @@ body
 
 .box
 {
-    padding-top: 45px;
-    padding-left: 235px;
+    padding-top: 68px;
+    padding-left: 335px;
+    padding-right: 235px;
     width: 75vw;
     height: 115vh;
     background-color: rgba(28, 55, 78, 0.514);
