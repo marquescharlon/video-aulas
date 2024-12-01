@@ -57,6 +57,7 @@ body{
 .container_title{
     color: aliceblue;
     margin-bottom: 2rem;
+    font-weight: 800;
 }
 .container_content{
     display: flex;
@@ -68,6 +69,11 @@ body{
 }
 .container_content_left_content_subtitle{
     color: aliceblue;
+    font-weight: 800;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.container_content_center_review_title{
+    color: aliceblue;
+    font-weight: 800;
 }
