@@ -9,4 +9,48 @@ body{
     /* Alterando o valor minimo da largura, para que ele ocupe pelo menos toda a tela do user em condições normais*/
     min-height: 100vh;
     /* Alterando o valor minimo da altura, para que ela ocupe pelo menos toda a tela do user em condições normais*/
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.nhero_nav{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: flex-end;
+    /* padding: 1.5rem; */
+    padding-right: 4rem;
+}
+.nhero_nav_list{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav-link{
+    padding: 1rem;
+    /* outline: 1px solid rgba(71, 70, 70, 0.482); */
+    width: 20rem;
+    text-align: center;
+    color: #ff00009f;
+}
+.nav-link:hover{
+    background-color: #430000;
+    color: #ff0000;
+}
+.breadcrumb{
+    color: black;
+    padding-left: 1rem;
+}
+.breadcrumb-item a{
+    text-decoration: none;
+    color: #ff0000;
+}
+.breadcrumb-item.active {
+    color: #430000;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ff0000;
 }
