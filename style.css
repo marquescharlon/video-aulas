@@ -2,3 +2,10 @@ body
 {
     background-color: rgb(93, 116, 136);
 }
+
+.box
+{
+    width: 75vw;
+    height: 100vh;
+    background-color: rgba(28, 55, 78, 0.514);
+}
