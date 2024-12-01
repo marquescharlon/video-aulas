@@ -5,11 +5,18 @@ body
 
 .box
 {
-    padding-top: 145px;
+    padding-top: 45px;
     padding-left: 235px;
     width: 75vw;
-    height: 100vh;
+    height: 115vh;
     background-color: rgba(28, 55, 78, 0.514);
+}
+
+.card
+{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: aliceblue;
+    border-style: double;
 }
 
 .card-body
