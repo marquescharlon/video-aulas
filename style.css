@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Kanit', sans-serif;
+    font-size: larger;
     background-color: #aa7264;
     padding: 10px 20px;
   }
