@@ -1,90 +1,91 @@
-<<!DOCTYPE html lang="pt-BR">
+<!DOCTYPE html lang="pt-BR">
 <html>
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <meta charset="UTF-8">
         <title>Site de Futebol</title>
     </head>
-    <body>
 
-        <!-- Navbar -->
+    <body style="background-color: #f0f8ff;"> <!-- Cor de fundo suave -->
+        
+        <!-- Barra de navegação -->
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Futebol Brasil</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Notícias</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Jogos
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Jogos de Hoje</a></li>
-                          <li><a class="dropdown-item" href="#">Próximos Jogos</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Resultados Recentes</a></li>
+                    <a class="navbar-brand" href="#">Futebol Brasil</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notícias</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Jogos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Jogos de Hoje</a></li>
+                                    <li><a class="dropdown-item" href="#">Próximos Jogos</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Resultados Recentes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Sobre</a>
+                            </li>
                         </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Sobre</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                      <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                    </form>
-                  </div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                        </form>
+                    </div>
                 </div>
-              </nav>
+            </nav>
         </header>
 
-        <!-- Main Content -->
-        <main style="background-color: #f0f8ff;" class="container mt-4">
-            <h1 style="color: #006400;">Bem-vindo ao Futebol Brasil</h1>
-            <p style="color: #004d00;">Fique por dentro de tudo o que acontece no mundo do futebol brasileiro e mundial.</p>
+        <!-- Corpo do Site -->
+        <main class="container mt-4">
+            <h1 style="color: #006400;">Bem-vindo ao Futebol Brasil!</h1>
+            <p style="color: #004d00;">Fique por dentro das últimas notícias e eventos sobre futebol nacional e internacional.</p>
 
-            <!-- Cards Section -->
+            <!-- Cards de Conteúdo -->
             <div class="row">
-                <!-- Card 1: Pacote de Viagem -->
+                <!-- Card 1: Pacote de Viagem para Copa do Mundo -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Pacote de Viagem Futebol">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Pacote Copa">
                         <div class="card-body">
                             <h5 class="card-title">Pacote Copa do Mundo</h5>
-                            <p class="card-text">Viaje com a gente para a próxima Copa do Mundo e acompanhe os melhores jogos!</p>
-                            <a href="#" class="btn btn-primary">Ver Pacote</a>
+                            <p class="card-text">Viaje para a Copa do Mundo e acompanhe os jogos ao vivo com os melhores pacotes.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Card 2: Pacote Porto Seguro -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Porto Seguro">
                         <div class="card-body">
                             <h5 class="card-title">Pacote Porto Seguro</h5>
-                            <p class="card-text">Aproveite o melhor do futebol e uma viagem incrível para Porto Seguro.</p>
-                            <a href="#" class="btn btn-primary">Ver Pacote</a>
+                            <p class="card-text">Desfrute de uma experiência única com um pacote de viagem para Porto Seguro.</p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 3: Notícias -->
+                <!-- Card 3: Notícias de Futebol -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
                         <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Notícias Futebol">
                         <div class="card-body">
                             <h5 class="card-title">Últimas Notícias</h5>
-                            <p class="card-text">Fique por dentro das últimas novidades sobre o futebol nacional e internacional.</p>
+                            <p class="card-text">Fique atualizado com as últimas notícias e resultados de campeonatos nacionais e internacionais.</p>
                             <a href="#" class="btn btn-primary">Leia as Notícias</a>
                         </div>
                     </div>
@@ -92,10 +93,10 @@
             </div>
         </main>
 
-        <!-- Footer with Newsletter -->
+        <!-- Rodapé -->
         <footer class="bg-light py-4 mt-5">
             <div class="container">
-                <h3>Receba Novidades do Futebol</h3>
+                <h3>Inscreva-se para Receber Novidades</h3>
                 <form>
                     <div class="form-group">
                         <label for="email">Digite seu e-mail</label>
@@ -108,7 +109,7 @@
 
         <!-- Redes Sociais -->
         <div class="container mt-5">
-            <h3>Siga-nos nas redes sociais</h3>
+            <h3>Siga-nos nas Redes Sociais</h3>
             <ul class="list-unstyled d-flex">
                 <li class="me-3"><a href="https://www.facebook.com" target="_blank" class="text-primary"><i class="fab fa-facebook-f"></i> Facebook</a></li>
                 <li class="me-3"><a href="https://www.twitter.com" target="_blank" class="text-info"><i class="fab fa-twitter"></i> Twitter</a></li>
@@ -116,4 +117,5 @@
             </ul>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9Gkc
+        <script src="https://cdn.jsdelivr.net/npm/bootst
+
