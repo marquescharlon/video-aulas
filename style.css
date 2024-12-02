@@ -9,3 +9,7 @@
 .navbar-brand, .nav-link:hover {
     color: black !important;
 }
+.nav-link {
+    font-weight: 500;
+    margin-right: 10px;
+}
