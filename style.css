@@ -27,24 +27,25 @@
 .navbar a:hover::after {
     width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
 }
-
-/* Container principal */
-.container {
-    display: flex;
-    justify-content: space-between;
+ 
+/* CONTAINERS E ROWS*/
+.bg-container {
+    background-color: #2dc9d4;
     width: 100%;
-    margin-bottom: 20px; /* Espaço entre as linhas de containers */
+    height: 60%;
   }
-  
-  .container-1{
+
+  .bg-row-1 {
+    background-color: #46bd28;
+    justify-content: center;
+  }
+  .bg-row-2{
     background-color: #ad1717;
-  }
-  .container-2{
-    background-color: aqua;
+    justify-content: center;
   }
   /* Cada item dentro do container */
   .item {
-    width: 48%; /* Para ter dois itens lado a lado com um pequeno espaço entre eles */
+    width: 20%; /* Para ter dois itens lado a lado com um pequeno espaço entre eles */
   }
   
   /* Card dentro de cada item */
@@ -56,9 +57,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     height: 200px; /* Ajuste a altura conforme necessário */
     display: flex;
-    align-items: center;
+    align-items: bottom;
     justify-content: center;
     text-align: center;
   }
-  
-  
