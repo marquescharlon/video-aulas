@@ -65,3 +65,9 @@
             width: auto;
         }
     }
+    .criar-cards{
+        width: max-content;
+        height: auto;
+        margin-right: auto;
+        margin-left: 300px;
+    }
