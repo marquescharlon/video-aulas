@@ -23,3 +23,10 @@
     background-color: beige;
     color: black !important;
 }
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
