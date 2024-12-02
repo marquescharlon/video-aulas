@@ -13,3 +13,6 @@
     font-weight: 500;
     margin-right: 10px;
 }
+.dropdown-menu {
+    background-color: #7cd3eb !important;
+}
