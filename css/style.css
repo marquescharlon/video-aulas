@@ -107,7 +107,13 @@
 }
 
 .footer {
+    .bi{
+        height: 50px;
+    }
     .icones {
+        text-align: center;
+        align-content: center;
+        align-items:center;
         height: 50px;
         width: auto;
     }
