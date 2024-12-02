@@ -1,0 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+head {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: aqua;
+}
+
+footer {
+    background-color: azure;
+}
+
+body {
+    border-left: 1px solid #000;
+}
