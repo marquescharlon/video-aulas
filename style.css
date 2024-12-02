@@ -1,10 +1,10 @@
-/* Navbar Styles */
+/* NAVBAR */
 .bg-navbar {
     display: flex;
     justify-content: space-between;
     font-family: 'Kanit', sans-serif;
     font-size: larger;
-    background-color: #aa7264;
+    background-color: #a75c5c;
     padding: 10px 20px;
   }
 
@@ -18,7 +18,7 @@
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #c26c61; /* Cor do sublinhado */
+    background-color: #ad1717; /* Cor do sublinhado */
     left: 0;
     bottom: -2px;
     transition: width 0.3s ease-in-out;
