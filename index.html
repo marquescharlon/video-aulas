@@ -1,93 +1,101 @@
-<!DOCTYPE html="pt-BR">
+<<!DOCTYPE html lang="pt-BR">
 <html>
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <meta charset="UTF-8">
-        <title>Vídeo Aula</title>
-    </head>
-   
-<!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Site de Futebol</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-        
     </head>
     <body>
+
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Futebol Online</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Futebol Brasil</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link" href="#">Notícias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Jogos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Jogos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Jogos de Hoje</a></li>
+                          <li><a class="dropdown-item" href="#">Próximos Jogos</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Resultados Recentes</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Sobre</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
 
         <!-- Main Content -->
-        <main class="container mt-4">
-            <h1>Bem-vindo ao Futebol Online</h1>
-            <p>Confira os cursos, notícias e atualizações sobre o mundo do futebol:</p>
+        <main style="background-color: #f0f8ff;" class="container mt-4">
+            <h1 style="color: #006400;">Bem-vindo ao Futebol Brasil</h1>
+            <p style="color: #004d00;">Fique por dentro de tudo o que acontece no mundo do futebol brasileiro e mundial.</p>
 
             <!-- Cards Section -->
             <div class="row">
-                <!-- Card 1 -->
+                <!-- Card 1: Pacote de Viagem -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do curso de futebol">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Pacote de Viagem Futebol">
                         <div class="card-body">
-                            <h5 class="card-title">Curso de Futebol: Fundamentos</h5>
-                            <p class="card-text">Aprenda os fundamentos do futebol, desde os primeiros passos até técnicas avançadas.</p>
-                            <a href="#" class="btn btn-primary">Assistir Agora</a>
+                            <h5 class="card-title">Pacote Copa do Mundo</h5>
+                            <p class="card-text">Viaje com a gente para a próxima Copa do Mundo e acompanhe os melhores jogos!</p>
+                            <a href="#" class="btn btn-primary">Ver Pacote</a>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Card 2 -->
+                <!-- Card 2: Pacote Porto Seguro -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do curso de estratégias">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Porto Seguro">
                         <div class="card-body">
-                            <h5 class="card-title">Curso de Estratégias de Jogo</h5>
-                            <p class="card-text">Entenda como as táticas podem mudar o resultado do jogo e aprenda estratégias vencedoras.</p>
-                            <a href="#" class="btn btn-primary">Assistir Agora</a>
+                            <h5 class="card-title">Pacote Porto Seguro</h5>
+                            <p class="card-text">Aproveite o melhor do futebol e uma viagem incrível para Porto Seguro.</p>
+                            <a href="#" class="btn btn-primary">Ver Pacote</a>
                         </div>
                     </div>
                 </div>
-        
-                <!-- Card 3 -->
+
+                <!-- Card 3: Notícias -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem do curso de técnicas avançadas">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagem Notícias Futebol">
                         <div class="card-body">
-                            <h5 class="card-title">Curso de Técnicas Avançadas</h5>
-                            <p class="card-text">Melhore seu desempenho no campo com as técnicas mais avançadas de dribles, passes e chutes.</p>
-                            <a href="#" class="btn btn-primary">Assistir Agora</a>
+                            <h5 class="card-title">Últimas Notícias</h5>
+                            <p class="card-text">Fique por dentro das últimas novidades sobre o futebol nacional e internacional.</p>
+                            <a href="#" class="btn btn-primary">Leia as Notícias</a>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
 
-        <!-- Formulário de Newsletter -->
-        <footer class="bg-light py-4">
+        <!-- Footer with Newsletter -->
+        <footer class="bg-light py-4 mt-5">
             <div class="container">
-                <h3>Inscreva-se para receber novidades sobre futebol</h3>
+                <h3>Receba Novidades do Futebol</h3>
                 <form>
                     <div class="form-group">
                         <label for="email">Digite seu e-mail</label>
@@ -99,17 +107,13 @@
         </footer>
 
         <!-- Redes Sociais -->
-        <div class="row mt-5">
-            <div class="col-12">
-                <h3>Siga-nos nas redes sociais</h3>
-                <ul class="list-unstyled d-flex">
-                    <li class="me-3"><a href="https://www.facebook.com" target="_blank" class="text-primary"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                    <li class="me-3"><a href="https://www.twitter.com" target="_blank" class="text-info"><i class="fab fa-twitter"></i> Twitter</a></li>
-                    <li class="me-3"><a href="https://www.instagram.com" target="_blank" class="text-danger"><i class="fab fa-instagram"></i> Instagram</a></li>
-                </ul>
-            </div>
+        <div class="container mt-5">
+            <h3>Siga-nos nas redes sociais</h3>
+            <ul class="list-unstyled d-flex">
+                <li class="me-3"><a href="https://www.facebook.com" target="_blank" class="text-primary"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li class="me-3"><a href="https://www.twitter.com" target="_blank" class="text-info"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li class="me-3"><a href="https://www.instagram.com" target="_blank" class="text-danger"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
         </div>
 
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</html>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9Gkc
