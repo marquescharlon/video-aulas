@@ -85,7 +85,7 @@
     width: max-content;
     height: auto;
     margin-right: auto;
-    margin-left: 300px;
+    margin-left: 424px;
 }
 
 /* DESTAQUE FOOTER */
@@ -107,8 +107,8 @@
 }
 
 .footer {
-    .bi{
-        height: 50px;
+    .bi bi-facebook::before{
+        height: 50px !important;
     }
     .icones {
         text-align: center;
@@ -116,5 +116,6 @@
         align-items:center;
         height: 50px;
         width: auto;
+        font-size: 30px;
     }
 }
