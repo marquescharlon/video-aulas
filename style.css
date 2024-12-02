@@ -16,3 +16,6 @@
 .dropdown-menu {
     background-color: #7cd3eb !important;
 }
+.dropdown-item {
+    color: beige !important;
+}
