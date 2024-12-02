@@ -74,3 +74,9 @@
         margin-right: auto;
         margin-left: 300px;
     }
+    /* FOOTER */
+    .footer{
+        width: auto;
+        height: 100px;
+        background-color: cadetblue;
+    }
