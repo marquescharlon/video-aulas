@@ -107,15 +107,16 @@
 }
 
 .footer {
+    display: block;
     .bi bi-facebook::before{
         height: 50px !important;
     }
-    .icones {
+    .col {
         text-align: center;
         align-content: center;
         align-items:center;
-        height: 50px;
-        width: auto;
+        height: auto;
+        width: 30px;
         font-size: 30px;
     }
 }
