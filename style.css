@@ -30,8 +30,8 @@
  
 /* ROWS E COLLUMS*/
 .row {
-    margin: 20px auto; /* Espaçamento vertical entre as linhas */
-    padding: 20px;
+    margin: 10px auto; /* Espaçamento vertical entre as linhas */
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -52,6 +52,7 @@
 /* Cartões responsivos */
 .card {
     margin: 0 auto; /* Centraliza os cartões dentro da coluna */
+    justify-content: baseline;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
 }
 
