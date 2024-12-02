@@ -19,3 +19,7 @@
 .dropdown-item {
     color: beige !important;
 }
+.dropdown-item:hover {
+    background-color: beige;
+    color: black !important;
+}
