@@ -104,5 +104,11 @@
     width: auto;
     height: 100px;
     background-color: cadetblue;
+}
 
+.footer {
+    .icones {
+        height: 50px;
+        width: auto;
+    }
 }
