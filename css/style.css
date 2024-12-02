@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* HTML */
+.html {
+    display: flex;
+}
+
+/* NAVBAR */
+.navbar-global {
+    .navbar {
+        background-color: cadetblue !important;
+        font-style: normal;
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn {
+        background-color: white;
+        color: black;
+    }
+
+    .btn:hover {
+        background-color: white;
+    }
+
+    .container {
+        border: 1px solid aquamarine;
+        border-radius: 10px;
+        width: auto;
+        gap: 10px;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+}
+
+.container {
+    .btn {
+        background-color: transparent;
+    }
+}
+
+/* MAIN */
+
+/* DESTAQUE */
+.destaque {
+    .display-4 {
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        text-decoration-line: underline;
+    }
+}
+
+/* CARDS */
+.criar-cards {
+    .col {
+        width: auto;
+        height: auto;
+    }
+
+    .card {
+        width: 500px;
+        height: auto;
+    }
+
+    .card-img-top {
+        height: auto;
+        width: 100%;
+    }
+
+    .row {
+        width: auto;
+    }
+}
+
+.criar-cards {
+    width: max-content;
+    height: auto;
+    margin-right: auto;
+    margin-left: 424px;
+}
+
+/* DESTAQUE FOOTER */
+.destaque {
+    .display-5 {
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        text-decoration-line: underline;
+    }
+}
+
+/* FOOTER */
+.footer {
+    padding-top: 10px;
+    width: auto;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.footer {
+    display: block;
+    .bi bi-facebook::before{
+        height: 50px !important;
+    }
+    .col {
+        text-align: center;
+        align-content: center;
+        align-items:center;
+        height: auto;
+        width: 30px;
+        font-size: 30px;
+    }
+}
