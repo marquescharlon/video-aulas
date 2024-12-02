@@ -28,4 +28,37 @@
     width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
 }
 
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; /* Espaço entre as linhas de containers */
+  }
+  
+  .container-1{
+    background-color: #ad1717;
+  }
+  .container-2{
+    background-color: aqua;
+  }
+  /* Cada item dentro do container */
+  .item {
+    width: 48%; /* Para ter dois itens lado a lado com um pequeno espaço entre eles */
+  }
+  
+  /* Card dentro de cada item */
+  .card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 200px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
   
