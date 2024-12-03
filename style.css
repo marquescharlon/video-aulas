@@ -1,0 +1,168 @@
+/* Reset básico para garantir consistência entre os navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fontes e cores globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Cor suave de fundo */
+    color: #333; /* Cor padrão para o texto */
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho e navegação */
+header {
+    background-color: #004d00; /* Cor verde escuro, relacionada a futebol */
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Cor dos links no menu */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Cor de hover (destaque) */
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Cor do ícone do menu */
+}
+
+/* Estilos para o título da página */
+h1 {
+    color: #006400; /* Cor verde escuro */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+/* Estilo para o parágrafo */
+p {
+    color: #004d00;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Estilo para os cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #006400;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Estilo para os botões */
+.btn-primary {
+    background-color: #006400; /* Verde para botões */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004d00; /* Verde mais escuro ao passar o mouse */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+footer .form-control {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+footer .btn-primary {
+    margin-top: 10px;
+    background-color: #ffcc00; /* Cor amarela para o botão */
+    border: none;
+}
+
+footer .btn-primary:hover {
+    background-color: #e6b800;
+}
+
+/* Estilo para redes sociais no rodapé */
+footer .list-unstyled {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .list-unstyled li {
+    margin-right: 20px;
+}
+
+footer .list-unstyled a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+footer .list-unstyled a:hover {
+    color: #ffcc00;
+}
+
+/* Estilo para o conteúdo dentro da main */
+main.container {
+    margin-top: 50px;
+}
+
+/* Estilo para os cards de conteúdo */
+.row {
+    margin-bottom: 40px;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
