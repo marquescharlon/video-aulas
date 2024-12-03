@@ -23,3 +23,23 @@
     background-color: beige;
     color: black !important;
 }
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body {
+    background-image: url(https://cdn.abjnoticias.com.br/abjnoticias-home/2023/11/viagem_america-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-img-top {
+    height: 200px; 
+    width: auto; 
+    object-fit: cover;
+  }
+  
