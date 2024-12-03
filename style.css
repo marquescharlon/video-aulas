@@ -1,6 +1,9 @@
 .bg_Bisque{
     background-color:bisque;
     color: black;
+    border: 1px;
+    border-color: burlywood;
+    border-style: solid;
 }
 
 body{
