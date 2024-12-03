@@ -1,19 +1,136 @@
-<!DOCTYPE html="pt-BR">
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Vídeo Aula</title>
-    </head>
-    <body>
-        <header>
-            <!-- Adicionar a barra de menu -->
-        </header>
-        <main>
-            <!-- Adicionar quadro cards dentro de um container -->
-            <!-- Esteja atento a distância entre os cards, o capricho faz parte do desenvolvimento -->
-        </main>
-        <footer>
-            <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
-        </footer>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink F</title>
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link para o CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="bg-primary text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Pink F</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobrenos.html">Sobre Nós</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    
+
+    <!-- MAIN -->
+    <main class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4">Bem-vindos ao Pink F, um aplicativo de videos</h1>
+            <p class="text-center">Este é um site simples criado para demonstrar boas práticas de HTML e CSS utilizando Bootstrap.</p>
+
+           
+            
+  <!-- Carrossel -->
+  <div id="carouselExampleIndicators" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/carrossel1.jpg" class="d-block w-100" alt="HTML">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Aprenda HTML</h5>
+                <p>Introdução ao desenvolvimento de páginas web.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrossel2.jpg" class="d-block w-100" alt="CSS">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Aprenda CSS</h5>
+                <p>Criação de layouts estilizados e responsivos.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/carrossel3.jpg" class="d-block w-100" alt="Bootstrap">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Aprenda Bootstrap</h5>
+                <p>Facilite o design responsivo com este framework poderoso.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+</div>
+
+
+
+            <!-- Cards com vídeos -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="img/6.png" class="card-img-top" alt="Vídeo HTML">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso de HTML</h5>
+                            <p class="card-text">Vídeo 1: Introdução ao HTML</p>
+                            <p> é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web..</p>
+                            <a href="videos.html" class="btn btn-primary">Assista agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="img/11.jpg" class="card-img-top" alt="Vídeo CSS">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso de CSS</h5>
+                            <p class="card-text">Vídeo 2: Introdução ao CSS</p>
+                            <p>CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos..</p>
+                            <a href="videos.html" class="btn btn-primary">Assista agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="img/7.png" class="card-img-top" alt="Vídeo Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso de Bootstrap</h5>
+                            <p class="card-text">Vídeo 3: Introdução ao Bootstrap</p>
+                            <p>O Bootstrap é uma ferramenta gratuita para Realizar a estrutura do site..</p>
+                            <a href="videos.html" class="btn btn-primary">Assista agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Videos Aulas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
+
