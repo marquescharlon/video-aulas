@@ -12,10 +12,19 @@ body{
 
 .card{
     max-width: 350px;
+    min-width: 350px;
 }
 
 .center{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.margintop{
+    margin-top: 5vh;
+}
+
+.marginbot{
+    margin-bottom: 2vh;
 }
