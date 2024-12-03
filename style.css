@@ -22,8 +22,8 @@ body{
 }
 
 .margin{
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 6vh;
+    margin-bottom:6vh;
 }
 
 footer{
@@ -35,5 +35,6 @@ footer{
 }
 
 .padding{
-    padding-top: 2vh;   padding-bottom: 2vh;
+    padding-top: 2vh;   
+    padding-bottom: 2vh;
 }
