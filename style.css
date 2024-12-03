@@ -8,6 +8,10 @@
 
 body{
     font-family:'Times New Roman', Times, serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .card{
@@ -22,12 +26,13 @@ body{
 }
 
 .margin{
-    margin-top: 6vh;
-    margin-bottom:6vh;
+    margin-top: 3vh;
+    margin-bottom:3vh;
 }
 
 footer{
     background-color: bisque;
+    margin-top: auto;
 }
 
 .form-label{
@@ -37,4 +42,12 @@ footer{
 .padding{
     padding-top: 2vh;   
     padding-bottom: 2vh;
+}
+
+main{
+    margin-bottom: auto;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
