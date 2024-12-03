@@ -22,12 +22,8 @@ body{
 }
 
 .margin{
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-bottom: 3vh;
-}
-
-.marginbot{
-    margin-bottom: 2vh;
 }
 
 footer{
@@ -36,4 +32,8 @@ footer{
 
 .form-label{
     margin-bottom: 0px;
+}
+
+.padding{
+    padding-top: 2vh;   padding-bottom: 2vh;
 }
