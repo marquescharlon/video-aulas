@@ -49,9 +49,11 @@ body {
 }  
 .container2 {
     background-color: #636363;  
-    padding: 20px;  
+    padding: 20px; 
+    text-align: center; 
 }  
 
 footer {
+    margin-top: auto;
     color: beige;
 }
