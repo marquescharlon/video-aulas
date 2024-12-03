@@ -36,3 +36,10 @@ body {
     background-size: cover;
     background-position: center center;
 }
+
+.card-img-top {
+    height: 200px; 
+    width: auto; 
+    object-fit: cover;
+  }
+  
