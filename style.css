@@ -21,10 +21,15 @@ body{
     justify-content: center;
 }
 
-.margintop{
+.margin{
     margin-top: 5vh;
+    margin-bottom: 3vh;
 }
 
 .marginbot{
     margin-bottom: 2vh;
+}
+
+footer{
+    background-color: bisque;
 }
