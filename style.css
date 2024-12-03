@@ -9,3 +9,7 @@
 body{
     font-family:'Times New Roman', Times, serif;
 }
+
+.card{
+    max-width: 350px;
+}
