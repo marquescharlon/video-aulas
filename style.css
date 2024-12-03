@@ -41,5 +41,9 @@ body {
     height: 200px; 
     width: auto; 
     object-fit: cover;
-  }
-  
+}
+
+.container1 {
+    background-color: #000000;  
+    padding: 20px;  
+}
