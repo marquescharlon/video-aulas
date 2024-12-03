@@ -7,6 +7,8 @@
 ## Etapas implementadas
 - [x] Adicionar link do Bootstrap
 - [x] Criar navbar
+- [x] Adicionar Header
+- [x] Adicionar Main
 - [x] Adicionar footer
 - [ ] Implementar seção de cursos
 
