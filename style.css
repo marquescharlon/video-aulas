@@ -56,4 +56,10 @@ body {
 footer {
     margin-top: auto;
     color: beige;
+    padding: 20px 0;
+    font-size: 0.9em;
+    margin-top: auto;
+}
+footer a:hover {
+    text-decoration: underline;
 }
