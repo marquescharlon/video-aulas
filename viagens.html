@@ -1,97 +1,166 @@
-<!DOCTYPE html="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <meta charset="UTF-8">
-        <title>MuriloTur - Página inicial</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <img src="https://img.freepik.com/fotos-premium/dois-avioes-e-uma-linha-indicando-a-rota-em-um-fundo-azul-viagem-de-conceito-passagens-aereas-voo-palete-de-rota_164357-1189.jpg?w=1380" alt="Dois aviões e uma linha indicando a rota em um fundo azul." style="height: 50px; width: auto;">
-
-                  <a class="navbar-brand" href="index.html">MuriloTur</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>MuriloTur - Página inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="https://img.freepik.com/fotos-premium/dois-avioes-e-uma-linha-indicando-a-rota-em-um-fundo-azul-viagem-de-conceito-passagens-aereas-voo-palete-de-rota_164357-1189.jpg?w=1380" alt="Dois aviões e uma linha indicando a rota em um fundo azul." style="height: 50px; width: auto;">
+                <a class="navbar-brand" href="index.html">MuriloTur</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Quem somos.html">Quem somos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="promo.html">Promoções</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Pacotes
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="porto seguro.html">Porto Seguro</a></li>
-                          <li><a class="dropdown-item" href="barao dos cocais.html">Barão dos Cocais</a></li>
-                          <li><a class="dropdown-item" href="Lençóis Maranhenses.html">Lençóis Maranhenses</a></li>
-                          <li><a class="dropdown-item" href="grecia.html">Grécia</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="viagens.html">Outras viagens</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
-                      </li>
-                      <!-- <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                      </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Quem somos.html">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promo.html">Promoções</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pacotes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="porto seguro.html">Porto Seguro</a></li>
+                                <li><a class="dropdown-item" href="barao dos cocais.html">Barão dos Cocais</a></li>
+                                <li><a class="dropdown-item" href="Lençóis Maranhenses.html">Lençóis Maranhenses</a></li>
+                                <li><a class="dropdown-item" href="grecia.html">Grécia</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="viagens.html">Outras viagens</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
-                  </div>
                 </div>
-              </nav>
-        </header>
-        <main>
-            <br><br><br>
-            <!-- Adicionar quadro cards dentro de um container -->
-            <div class="container-fluid">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXecGIpwmUZi4faYncAu2kWIXz3HM9U46n_jnfFZk8mcoKJRTvaY7-R6WRxB1Pe4SI2ZOdkfIRu9MVJiEqJK6g34L8FivW46ZhYZNp_9_v4xo-sJh2uOKkEkODMwbcsLJzmlWM9Ll3w7Ta7Lz37oMAJvVn1S?key=VFMhap7vFLXneoFgau09hA" class="card-img-top" alt="Vilarejo à beira-mar ao pôr do sol, com casas brancas, cúpulas azuis e iluminação acolhedora.">
-                    <div class="card-body">
-                      <h5 class="card-title">Grécia</h5>
-                      <p class="card-text">A Grécia, berço da civilização ocidental, é um destino encantador com rica história, monumentos históricos, ilhas paradisíacas, clima mediterrâneo, praias deslumbrantes e gastronomia típica. Combina cultura, aventura e relaxamento, sendo ideal para explorar em qualquer época do ano.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div> 
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="https://content.nationalgeographic.pt/medio/2024/08/02/lencois-maranhenses_7a010244_240802103945_800x533.jpg" class="card-img-top" alt="Dunas brancas, lagoas esverdeadas e áreas de vegetação sob um céu azul.">
-                    <div class="card-body">
-                      <h5 class="card-title">Lençóis Maranhenses</h5>
-                      <p class="card-text">Os Lençóis Maranhenses são um destino único, com vastas dunas de areia branca intercaladas por lagoas de águas cristalinas. Localizado no nordeste do Brasil, oferece paisagens deslumbrantes, clima tropical e experiências inesquecíveis para quem busca contato com a natureza, aventura e tranquilidade.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="https://sueds.com.br/wp-content/uploads/2022/04/Porto-Seguro-e-os-522-anos-do-Brasil.jpg" class="card-img-top" alt="Paisagem tropical com coqueiros, praia de areia clara e mar esverdeado sob um céu azul.">
-                    <div class="card-body">
-                      <h5 class="card-title">Porto Seguro</h5>
-                      <p class="card-text">Porto Seguro é um destino turístico vibrante no litoral da Bahia, conhecido por suas praias paradisíacas, cultura rica e vida noturna animada. A cidade combina história, com seus marcos coloniais, e natureza exuberante, oferecendo experiências inesquecíveis para os visitantes.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="https://minasgerais.com.br/imagens/destinos/1513618596b2uXzqNIDi.jpg" class="card-img-top" alt="Igreja histórica com torres simétricas, fachada branca com detalhes dourados e janelas decoradas, cercada por árvores e céu azul.">
-                    <div class="card-body">
-                      <h5 class="card-title">Barão dos Cocais</h5>
-                      <p class="card-text">Barão dos Cocais, cidade mineira com um charme acolhedor, destaca-se por sua tranquilidade e beleza natural. Rodeada por montanhas e rica em cultura local, é um destino ideal para quem busca contato com a natureza e uma imersão na história do interior de Minas Gerais.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div>
-                  </div> 
             </div>
-            <!-- Esteja atento a distância entre os cards, o capricho faz parte do desenvolvimento -->
-        </main>
-        <br> <br><br> <br><br> <br><br> <br>
+        </nav>
+    </header>
+
+    <main>
+        <br><br><br>
+        <div id="container-1" class="container-fluid">
+            <div class="card" style="width: 18rem;">
+                <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXecGIpwmUZi4faYncAu2kWIXz3HM9U46n_jnfFZk8mcoKJRTvaY7-R6WRxB1Pe4SI2ZOdkfIRu9MVJiEqJK6g34L8FivW46ZhYZNp_9_v4xo-sJh2uOKkEkODMwbcsLJzmlWM9Ll3w7Ta7Lz37oMAJvVn1S?key=VFMhap7vFLXneoFgau09hA" class="card-img-top" alt="Vilarejo à beira-mar ao pôr do sol, com casas brancas, cúpulas azuis e iluminação acolhedora.">
+                <div class="card-body">
+                    <h5 class="card-title">Grécia</h5>
+                    <p class="card-text">A Grécia, berço da civilização ocidental, é um destino encantador com rica história, monumentos históricos, ilhas paradisíacas, clima mediterrâneo, praias deslumbrantes e gastronomia típica. Combina cultura, aventura e relaxamento, sendo ideal para explorar em qualquer época do ano.</p>
+                    <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://content.nationalgeographic.pt/medio/2024/08/02/lencois-maranhenses_7a010244_240802103945_800x533.jpg" class="card-img-top" alt="Dunas brancas, lagoas esverdeadas e áreas de vegetação sob um céu azul.">
+              <div class="card-body">
+                  <h5 class="card-title">Lençóis Maranhenses</h5>
+                  <p class="card-text">Os Lençóis Maranhenses são um destino único, com vastas dunas de areia branca intercaladas por lagoas de águas cristalinas. Localizado no nordeste do Brasil, oferece paisagens deslumbrantes, clima tropical e experiências inesquecíveis para quem busca contato com a natureza, aventura e tranquilidade.</p>
+                  <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+              </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://sueds.com.br/wp-content/uploads/2022/04/Porto-Seguro-e-os-522-anos-do-Brasil.jpg" class="card-img-top" alt="Paisagem tropical com coqueiros, praia de areia clara e mar esverdeado sob um céu azul.">
+            <div class="card-body">
+                <h5 class="card-title">Porto Seguro</h5>
+                <p class="card-text">Porto Seguro é um destino turístico vibrante no litoral da Bahia, conhecido por suas praias paradisíacas, cultura rica e vida noturna animada. A cidade combina história, com seus marcos coloniais, e natureza exuberante, oferecendo experiências inesquecíveis para os visitantes.</p>
+                <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://sueds.com.br/wp-content/uploads/2022/04/Porto-Seguro-e-os-522-anos-do-Brasil.jpg" class="card-img-top" alt="Paisagem tropical com coqueiros, praia de areia clara e mar esverdeado sob um céu azul.">
+            <div class="card-body">
+                <h5 class="card-title">Porto Seguro</h5>
+                <p class="card-text">Porto Seguro é um destino turístico vibrante no litoral da Bahia, conhecido por suas praias paradisíacas, cultura rica e vida noturna animada. A cidade combina história, com seus marcos coloniais, e natureza exuberante, oferecendo experiências inesquecíveis para os visitantes.</p>
+                <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+            </div>
+        </div>
+        </div>
+
+        <div id="container-2" class="container-fluid" style="display: none;">
+          <div id="container-2" class="container-fluid" style="display: none;">
+            <div class="card" style="width: 18rem;">
+              <img src="https://link-para-imagem-londres.jpg" class="card-img-top" alt="Vista da Tower Bridge, em Londres, com o rio Tamisa ao fundo.">
+              <div class="card-body">
+                <h5 class="card-title">Londres</h5>
+                <p class="card-text">Londres, a capital do Reino Unido, é uma cidade vibrante repleta de história, cultura, museus, teatros e uma arquitetura impressionante. Visite o Big Ben, o Palácio de Buckingham e explore a diversidade de seus bairros.</p>
+                <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://link-para-imagem-italia.jpg" class="card-img-top" alt="Vista do Coliseu em Roma, Itália, com o céu azul ao fundo.">
+              <div class="card-body">
+                <h5 class="card-title">Itália</h5>
+                <p class="card-text">A Itália é famosa por suas paisagens encantadoras, rica herança histórica, comida deliciosa e cidades icônicas como Roma, Florença e Veneza. Uma viagem ao coração da Europa é uma imersão na arte, história e cultura.</p>
+                <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="https://link-para-imagem-japao.jpg" class="card-img-top" alt="Vista do Monte Fuji no Japão, com flores de cerejeira em primeiro plano.">
+              <div class="card-body">
+                <h5 class="card-title">Japão</h5>
+                <p class="card-text">O Japão combina o moderno e o tradicional com sua tecnologia avançada, templos históricos, jardins tranquilos e cultura única. Explore as vibrantes cidades de Tóquio e Kyoto, ou contemple a beleza natural do Monte Fuji.</p>
+                <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="container-3" class="container-fluid" style="display: none;">
+          <div class="card" style="width: 18rem;">
+            <img src="https://link-para-imagem-paris.jpg" class="card-img-top" alt="Vista da Torre Eiffel em Paris, com o pôr do sol ao fundo.">
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text">Paris, a cidade luz, é famosa por sua arte, moda, culinária e monumentos históricos, como a Torre Eiffel e o Museu do Louvre. É um destino encantador para quem busca romance, cultura e gastronomia.</p>
+              <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://link-para-imagem-bali.jpg" class="card-img-top" alt="Paisagem tropical em Bali, com praias de areia branca e águas cristalinas.">
+            <div class="card-body">
+              <h5 class="card-title">Bali</h5>
+              <p class="card-text">Bali, uma ilha paradisíaca da Indonésia, é conhecida por suas praias deslumbrantes, templos antigos e cultura vibrante. Ideal para quem busca tranquilidade, natureza e uma experiência única de espiritualidade e lazer.</p>
+              <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://link-para-imagem-nova-zelandia.jpg" class="card-img-top" alt="Paisagem natural da Nova Zelândia, com montanhas e lagoas cristalinas.">
+            <div class="card-body">
+              <h5 class="card-title">Nova Zelândia</h5>
+              <p class="card-text">A Nova Zelândia é famosa por suas paisagens naturais deslumbrantes, que incluem montanhas, lagos e praias. Ideal para quem gosta de aventuras ao ar livre, como caminhadas, esportes radicais e turismo ecológico.</p>
+              <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+            </div>
+          </div>
+        </div>        
+
+        <div class="text-center mt-4">
+            <button id="prevBtn" class="btn btn-primary" onclick="changeContainer(-1)">Anterior</button>
+            <button id="nextBtn" class="btn btn-primary" onclick="changeContainer(+1)">Próximo</button>
+        </div>
+
+    </main>
+
+    <script>
+        let currentContainer = 1;
+        const totalContainers = 3;
+
+        function changeContainer(direction) {
+            document.getElementById(`container-${currentContainer}`).style.display = 'none';
+            currentContainer = (currentContainer + direction - 1) % totalContainers + 1;
+            document.getElementById(`container-${currentContainer}`).style.display = 'block';
+        }
+    </script>
+        <br><br><br><br><br> <br><br><br>
         <footer>
             <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
              <div class="container1">
@@ -136,7 +205,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
                 <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
               </svg> MuriloTur_Ipatinga</a> <br>
-              <p>© 2024 MuriloTur - Todos os direitos reservados</p>
+              <p>&copy; 2024 MuriloTur - Todos os direitos reservados</p>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
