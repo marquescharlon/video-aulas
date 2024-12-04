@@ -1,4 +1,4 @@
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +47,13 @@ padding-top: 50px;
 padding-left: 100px;
 font-size: 3rem;
 }
+#titulo_curriculo{
+    font-size: 3rem;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 #text-sobre1{
 padding-top: 20px;
 
@@ -86,7 +93,7 @@ padding-bottom: 45px;
     background-color:#1a1947;
    
 color: whitesmoke;
-padding-bottom: 80px;
+padding-bottom: 30px;
 }
 #btn-curriculo{
     display: flex;
@@ -104,8 +111,13 @@ padding-bottom: 80px;
     background-color:black;
    
 color: whitesmoke;
-padding-bottom: 45px;
+padding-bottom: 85px;
 }
 #card-contato{
     padding: 10px;
+}
+
+.bi{
+    font-size: 23px;
+    padding-right: 2.5px;
 }
