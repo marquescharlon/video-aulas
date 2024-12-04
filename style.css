@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.navbar-expand-lg{
+.navbar-expand-lg, footer{
     background-color: #0f1120;
 }
 .nav-item{
@@ -21,7 +21,7 @@
     height: 330px;
     width: auto;
 }
-#navbarNav{
+#navbarNav, footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,3 +30,55 @@
 .nav-item{
     font-size: 1.5rem;
 }
+main, body{
+    background-color: #050527;
+}
+#Sobre,#Projetos,#Contato,#Curriculo{
+    background-color:#050527    ;
+}
+#Sobre{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.37); 
+    background-color:#1a1947;
+   
+color: whitesmoke;
+}
+#titulo_sobre{
+padding-top: 50px;
+padding-left: 100px;
+font-size: 3rem;
+}
+#text-sobre1{
+padding-top: 20px;
+
+}
+#text-sobre,#text-sobre1,#text-sobre2{
+
+    padding-left: 100px;
+    padding-right: 200px;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.6;  
+    font-family: 'Courier New', Courier, monospace; 
+}
+#text-sobre2{
+    padding-bottom: 25px;
+}
+#Projetos{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.37); 
+
+    background-color:black;
+   
+color: whitesmoke;
+padding-bottom: 80px;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    color: whitesmoke;
+    background-color: rgba(32, 13, 138, 0.548);
+}
+
+    
