@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-expand-lg{
+    background-color: #0f1120;
+}
+.nav-item{
+    color: whitesmoke;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1120;
+}
+#logo img{
+    height: 330px;
+    width: auto;
+}
+#navbarNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-item{
+    font-size: 1.5rem;
+}
