@@ -31,6 +31,13 @@
 /*BODY*/
 body {
     font-family: 'Kanit', sans-serif;
+    background-color: #e2b8b82d;
+}
+
+/*IMAGEM DO BANNER*/
+.image-banner img {
+    height: 50vh; /* Por exemplo, 50% da altura da tela */
+    object-fit: cover; /* Ajusta o conteúdo da imagem para cobrir o espaço sem deformar */
 }
 
 /* ROWS */
@@ -47,7 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center; /* Alinha texto no centro */
-    height: 100%; /* Garante que o flex ocupe todo o espaço */
+    /* Garante que o flex ocupe todo o espaço */
 }
 
 /* Centralizar conteúdo dos cards menores */
