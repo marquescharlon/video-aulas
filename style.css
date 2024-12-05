@@ -52,7 +52,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-
+.btn:hover {
+    background-color: #f8d9d9; /* Altera a cor do botão */
+}
 
 /* Centralizar conteúdo dos cards grandes */
 .card-large .card-body {
