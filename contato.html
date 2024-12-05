@@ -3,8 +3,62 @@
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <meta charset="UTF-8">
-        <title>MuriloTur - Página inicial</title>
-        <link rel="stylesheet" href="style.css">
+        <title>MuriloTur - Página de contato</title>
+        <style>
+        .navbar {
+          background-color: #7cd3eb !important;
+          font-size: 1rem;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .navbar .navbar-brand, .nav-link {
+          color: beige !important;
+        }
+        .navbar-brand, .nav-link:hover {
+          color: black !important;
+        }
+        .nav-link {
+          font-weight: 500;
+          margin-right: 10px;
+        }
+        .dropdown-menu {
+          background-color: #7cd3eb !important;
+        }
+        .dropdown-item {
+          color: beige !important;
+        }
+        .dropdown-item:hover {
+          background-color: beige;
+          color: black !important;
+        }
+        body {
+          background: linear-gradient(to bottom, #7cd3eb, #4f4e4e); 
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+          }
+          .card-img-top {
+            height: 200px; 
+            width: auto; 
+            object-fit: cover;
+          }
+          footer {
+            margin-top: auto;
+            color: beige;
+            padding: auto;
+            font-size: 0.9em;
+          }
+
+          .container1 {
+            background-color: #000000;  
+            padding: 20px;  
+          }  
+          .container2 {
+            background-color: #636363;  
+            padding: 20px; 
+            text-align: center; 
+          }  
+        </style>
     </head>
     <body>
         <header>
@@ -54,46 +108,91 @@
         </header>
         <main>
             <br><br><br>
-            <!-- Adicionar quadro cards dentro de um container -->
-            <div class="container-fluid">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXecGIpwmUZi4faYncAu2kWIXz3HM9U46n_jnfFZk8mcoKJRTvaY7-R6WRxB1Pe4SI2ZOdkfIRu9MVJiEqJK6g34L8FivW46ZhYZNp_9_v4xo-sJh2uOKkEkODMwbcsLJzmlWM9Ll3w7Ta7Lz37oMAJvVn1S?key=VFMhap7vFLXneoFgau09hA" class="card-img-top" alt="Vilarejo à beira-mar ao pôr do sol, com casas brancas, cúpulas azuis e iluminação acolhedora.">
-                    <div class="card-body">
-                      <h5 class="card-title">Grécia</h5>
-                      <p class="card-text">A Grécia, berço da civilização ocidental, é um destino encantador com rica história, monumentos históricos, ilhas paradisíacas, clima mediterrâneo, praias deslumbrantes e gastronomia típica. Combina cultura, aventura e relaxamento, sendo ideal para explorar em qualquer época do ano.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div> 
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="https://content.nationalgeographic.pt/medio/2024/08/02/lencois-maranhenses_7a010244_240802103945_800x533.jpg" class="card-img-top" alt="Dunas brancas, lagoas esverdeadas e áreas de vegetação sob um céu azul.">
-                    <div class="card-body">
-                      <h5 class="card-title">Lençóis Maranhenses</h5>
-                      <p class="card-text">Os Lençóis Maranhenses são um destino único, com vastas dunas de areia branca intercaladas por lagoas de águas cristalinas. Localizado no nordeste do Brasil, oferece paisagens deslumbrantes, clima tropical e experiências inesquecíveis para quem busca contato com a natureza, aventura e tranquilidade.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="https://sueds.com.br/wp-content/uploads/2022/04/Porto-Seguro-e-os-522-anos-do-Brasil.jpg" class="card-img-top" alt="Paisagem tropical com coqueiros, praia de areia clara e mar esverdeado sob um céu azul.">
-                    <div class="card-body">
-                      <h5 class="card-title">Porto Seguro</h5>
-                      <p class="card-text">Porto Seguro é um destino turístico vibrante no litoral da Bahia, conhecido por suas praias paradisíacas, cultura rica e vida noturna animada. A cidade combina história, com seus marcos coloniais, e natureza exuberante, oferecendo experiências inesquecíveis para os visitantes.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="https://minasgerais.com.br/imagens/destinos/1513618596b2uXzqNIDi.jpg" class="card-img-top" alt="Igreja histórica com torres simétricas, fachada branca com detalhes dourados e janelas decoradas, cercada por árvores e céu azul.">
-                    <div class="card-body">
-                      <h5 class="card-title">Barão dos Cocais</h5>
-                      <p class="card-text">Barão dos Cocais, cidade mineira com um charme acolhedor, destaca-se por sua tranquilidade e beleza natural. Rodeada por montanhas e rica em cultura local, é um destino ideal para quem busca contato com a natureza e uma imersão na história do interior de Minas Gerais.</p>
-                      <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
-                    </div>
-                  </div> 
-            </div>
-            <!-- Esteja atento a distância entre os cards, o capricho faz parte do desenvolvimento -->
+            <div class="container mt-5">
+              <h1>Formulário de Contato</h1>
+              <form action="#" method="POST">
+                  <label for="nome">Nome Completo:</label>
+                  <input type="text" id="nome" name="nome" required class="form-control mb-3" placeholder="Digite seu nome">
+                  
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email" required class="form-control mb-3" placeholder="Digite seu e-mail">
+      
+                  <label for="CPF">CPF:</label>
+                  <input type="text" id="cpf" name="cpf_criador" required class="form-control mb-3 cpf" placeholder="Digite o CPF" maxlength="14">
+                  
+                  <label for="telefone">Telefone:</label>
+                  <input type="tel" id="telefone" name="telefone" onkeyup="formatarTelefone(this)" required class="form-control mb-3" maxlength="11" placeholder="(XX)XXXXX-XXXX">
+                  
+                  <label for="endereco">Endereço:</label>
+                  <input type="text" id="endereco" name="endereco" required class="form-control mb-3" placeholder="Digite seu endereço">
+                  
+                  <label for="cidade">Cidade:</label>
+                  <input type="text" id="cidade" name="cidade" required class="form-control mb-3" placeholder="Digite sua cidade">
+                  
+                  <label for="estado">Estado:</label>
+                  <select id="estado" name="estado" required class="form-select mb-3">
+                      <option value="">Selecione um estado</option>
+                      <option value="AC">Acre (AC)</option>
+                      <option value="AL">Alagoas (AL)</option>
+                      <option value="AP">Amapá (AP)</option>
+                      <option value="BA">Bahia (BA)</option>
+                      <option value="CE">Ceará (CE)</option>
+                      <option value="DF">Distrito Federal (DF)</option>
+                      <option value="ES">Espírito Santo (ES)</option>
+                      <option value="GO">Goiás (GO)</option>
+                      <option value="MA">Maranhão (MA)</option>
+                      <option value="MT">Mato Grosso (MT)</option>
+                      <option value="MS">Mato Grosso do Sul (MS)</option>
+                      <option value="MG">Minas Gerais (MG)</option>
+                      <option value="PA">Pará (PA)</option>
+                      <option value="PB">Paraíba (PB)</option>
+                      <option value="PR">Paraná (PR)</option>
+                      <option value="PE">Pernambuco (PE)</option>
+                      <option value="PI">Piauí (PI)</option>
+                      <option value="RJ">Rio de Janeiro (RJ)</option>
+                      <option value="RN">Rio Grande do Norte (RN)</option>
+                      <option value="RS">Rio Grande do Sul (RS)</option>
+                      <option value="SC">Santa Catarina (SC)</option>
+                      <option value="SP">São Paulo (SP)</option>
+                      <option value="SE">Sergipe (SE)</option>
+                      <option value="TO">Tocantins (TO)</option>
+                  </select>
+                  
+                  <label for="como_conheceu">Como você nos conheceu?</label>
+                  <select id="como_conheceu" name="como_conheceu" required class="form-select mb-3">
+                      <option value="internet">Internet</option>
+                      <option value="amigo">Amigo</option>
+                      <option value="redes_sociais">Redes Sociais</option>
+                      <option value="anuncio_tv">Anúncio na TV</option>
+                      <option value="radio">Rádio</option>
+                      <option value="evento">Evento</option>
+                      <option value="revista">Jornal</option>
+                      <option value="outdoor">Outdoor</option>
+                      <option value="outro">Outro</option>
+                  </select>
+                  
+                  <label for="mensagem">Mensagem:</label>
+                  <textarea id="mensagem" name="mensagem" rows="4" class="form-control mb-3"></textarea>
+                  
+                  <label for="novidades">
+                      <input type="checkbox" id="novidades" name="novidades"> Gostaria de receber novidades por e-mail?
+                  </label>
+                  
+                  <fieldset class="mt-3">
+                      <legend>Avaliação do Serviço:</legend>
+                      <label><input type="radio" name="avaliacao" value="1"> 1</label>
+                      <label><input type="radio" name="avaliacao" value="2"> 2</label>
+                      <label><input type="radio" name="avaliacao" value="3"> 3</label>
+                      <label><input type="radio" name="avaliacao" value="4"> 4</label>
+                      <label><input type="radio" name="avaliacao" value="5"> 5</label>
+                  </fieldset>
+                  
+                  <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+              </form>
+          </div>            
         </main>
         <br> <br><br> <br><br> <br><br> <br>
         <footer>
-            <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
              <div class="container1">
               <h4>Inscreva-se na nossa Newsletter</h4>
               <p>Receba as melhores ofertas e novidades diretamente no seu e-mail!</p>
