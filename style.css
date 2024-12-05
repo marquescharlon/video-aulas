@@ -9,6 +9,9 @@ main h1{
 main p{
    font-size: 15pt; 
 }
-.card{
+.card-title{
+    font-size: 20pt;
+}
+.card-text{
     font-size: 15pt;
 }
