@@ -83,7 +83,7 @@
                           <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
                       </div>
                   </div>
-              </div>
+              </div> 
           </div>
       </div>
     
@@ -121,6 +121,18 @@
               </div>
           </div>
       </div>
+      <div id="container-3" class="container-fluid" style="display: none;">
+        <div class="col-12 col-md-4">
+          <div class="card" style="width: 100%;">
+            <img src="https://minasgerais.com.br/imagens/destinos/1513618596b2uXzqNIDi.jpg" class="card-img-top" alt="Igreja histórica com torres simétricas, fachada branca com detalhes dourados e janelas decoradas, cercada por árvores e céu azul.">
+              <div class="card-body">
+                  <h5 class="card-title">Barão dos Cocais</h5>
+                  <p class="card-text">Barão dos Cocais, cidade mineira com um charme acolhedor, destaca-se por sua tranquilidade e beleza natural. Rodeada por montanhas e rica em cultura local, é um destino ideal para quem busca contato com a natureza e uma imersão na história do interior de Minas Gerais.</p>
+                  <a href="saiba mais.html" class="btn btn-outline-success">Saiba mais</a>
+              </div>
+          </div>
+      </div>
+    </div>
     
       <div class="text-center mt-4">
           <button id="prev-button" class="btn btn-primary" onclick="toggleContainers('prev')" disabled>Anterior</button>
@@ -129,31 +141,40 @@
     </main>
 
     <script>
-      let currentContainer = 1;
+     let currentContainer = 1;
 
       function toggleContainers(action) {
-          const container1 = document.getElementById('container-1');
-          const container2 = document.getElementById('container-2');
-          const prevButton = document.getElementById('prev-button');
-          const nextButton = document.getElementById('next-button');
+        const container1 = document.getElementById('container-1');
+        const container2 = document.getElementById('container-2');
+        const container3 = document.getElementById('container-3');
+        const prevButton = document.getElementById('prev-button');
+        const nextButton = document.getElementById('next-button');
 
           if (action === 'next') {
-              if (currentContainer === 1) {
-                  container1.style.display = 'none';
-                  container2.style.display = 'block';
-                  currentContainer = 2;
+            if (currentContainer === 1) {
+              container1.style.display = 'none';
+              container2.style.display = 'block';
+              currentContainer = 2;
+            } else if (currentContainer === 2) {
+              container2.style.display = 'none';
+              container3.style.display = 'block';
+              currentContainer = 3;
               }
           } else if (action === 'prev') {
-              if (currentContainer === 2) {
-                  container1.style.display = 'block';
-                  container2.style.display = 'none';
-                  currentContainer = 1;
-              }
-          }
+              if (currentContainer === 3) {
+              container3.style.display = 'none';
+              container2.style.display = 'block';
+              currentContainer = 2;
+              } else if (currentContainer === 2) {
+              container2.style.display = 'none';
+              container1.style.display = 'block';
+              currentContainer = 1;
+                }
+            }
 
-          prevButton.disabled = currentContainer === 1;
-          nextButton.disabled = currentContainer === 2;
-      }
+    prevButton.disabled = currentContainer === 1;
+    nextButton.disabled = currentContainer === 3;
+}
   </script>
   
         <br><br><br><br><br> <br><br><br>
