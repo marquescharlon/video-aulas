@@ -27,5 +27,46 @@
 .navbar a:hover::after {
     width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
 }
+ 
+/* ROWS E COLLUMS*/
+.row {
+    margin: 10px auto; /* Espaçamento vertical entre as linhas */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
 
-  
+/* Fundo de cada linha para destacar */
+.bg-row-1 {
+    background-color: #f0f8ff; /* Azul claro */
+    border-radius: 10px; /* Borda arredondada */
+    border: 1px solid #dcdcdc; /* Borda cinza clara */
+}
+
+.bg-row-2 {
+    background-color: #ffe4e1; /* Coral claro */
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+/* Cartões responsivos */
+.card {
+    margin: 0 auto; /* Centraliza os cartões dentro da coluna */
+    justify-content: baseline;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+/* Ajuste para dispositivos menores */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Muda para empilhado em telas pequenas */
+    }
+
+    .col-6 {
+        width: 100%; /* Cada cartão ocupa toda a largura da linha */
+    }
+
+    .card {
+        width: auto; /* Ajusta a largura do cartão para telas menores */
+    }
+}
