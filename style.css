@@ -35,6 +35,32 @@
     justify-content: space-between;
 }
 
+/* Centralizar conteúdo dos cards grandes */
+.card-large .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Alinha texto no centro */
+    height: 100%; /* Garante que o flex ocupe todo o espaço */
+}
+
+/* Centralizar conteúdo dos cards menores */
+.card-small .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Mesma lógica para ocupar espaço */
+}
+
+/* Ajuste de margens entre o título e o texto */
+.card-title {
+    margin-bottom: 1rem;
+}
+
+
 /* Cartões responsivos */
 .card {
     margin: 0 auto; 
