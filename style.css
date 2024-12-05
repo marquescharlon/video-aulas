@@ -47,6 +47,13 @@ body {
     justify-content: space-between;
 }
 
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card */
+    transition: transform 0.3s ease;
+}
+
+
+
 /* Centralizar conteúdo dos cards grandes */
 .card-large .card-body {
     display: flex;
