@@ -211,7 +211,42 @@
             const form = document.getElementById("newsletterForm");
             form.style.display = form.style.display === "none" ? "block" : "none";
           });
-        </script><br> <br>
+        </script>
+        <script>
+          let campoCpf = document.querySelector(".cpf")
+      
+          campoCpf.addEventListener("keypress", ()=>{
+      
+              let tamanhoCampo = campoCpf.value.length
+      
+              if(tamanhoCampo == 3 || tamanhoCampo == 7){
+                  campoCpf.value += "."
+              } else if (tamanhoCampo == 11){
+                  campoCpf.value += "-"
+              }
+          })
+      </script>
+      <script>
+      
+          function formatarTelefone(input) {
+          // Remove todos os caracteres não numéricos
+          var telefone = input.value.replace(/\D/g, '');
+        
+          // Insere os parênteses, espaço e traço nos lugares corretos
+          telefone = telefone.replace(/(\d{2})(\d{5})(\d{4})/, '($1)$2-$3');
+        
+          // Atualiza o valor do campo de entrada com o telefone formatado
+          input.value = telefone;
+        }
+      </script>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+      <script>
+          function mostrarTexto(mensagem) {
+              document.getElementById('resultado').innerText = mensagem;
+          }
+      </script>
+        <br> <br>
               <p>Nos siga nas redes sociais!</p>
               <div>
                 <a href="#" class="btn btn-outline-light me-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
