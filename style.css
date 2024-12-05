@@ -28,6 +28,11 @@
     width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
 }
  
+/*BODY*/
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
 /* ROWS */
 .row {
     padding: 10px;
