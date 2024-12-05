@@ -54,6 +54,7 @@ body {
 
 .btn:hover {
     background-color: #f8d9d9; /* Altera a cor do botão */
+    color: rgb(148, 38, 38); /* Cor do texto ao passar o mouse */
 }
 
 /* Centralizar conteúdo dos cards grandes */
