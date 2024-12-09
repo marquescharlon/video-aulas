@@ -34,6 +34,7 @@ body {
     background-color: #e2b8b82d;
 }
 
+
 /*IMAGEM DO BANNER*/
 .image-banner img {
     height: 50vh; /* Por exemplo, 50% da altura da tela */
@@ -114,4 +115,7 @@ footer a {
     text-decoration: none; /* Remove o sublinhado */
     color: inherit; /* Herda a cor do texto do footer */
 }
-
+navbar
+{
+background-color:#f9f5f2;
+}
