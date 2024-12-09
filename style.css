@@ -104,3 +104,13 @@ body {
         width: auto; /* Ajusta a largura do cartão para telas menores */
     }
 }
+
+/*FOOTER*/
+footer{
+    background-color: #d3c0c0;
+}
+
+footer a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do texto do footer */
+}
