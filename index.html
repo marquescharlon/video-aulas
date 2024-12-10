@@ -6,28 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vídeo Aula - Portal de Cursos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-   
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Vídeo Aula</a>
+                <a class="navbar-brand" href="index.html">Vídeo Aula</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="cursos.html">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#cursos">Cursos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contato">Contato</a>
+                            <a class="nav-link" href="contato.html">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -35,15 +32,61 @@
         </nav>
     </header>
 
+    <main class="container mt-5">
+        <h1>Bem-vindo ao site de Vídeo Aulas!</h1>
+        <h2>Últimos Vídeos</h2>
+        <hr>
+        <div class="row">
+           
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/8dPpZsC6Vg8/hqdefault.jpg" alt="Imagem do vídeo">
+                    <div class="card-body">
+                        <h5 class="card-title">Estrutura básica e primeiros comandos HTML</h5>
+                        <p class="card-text">Nesta Primeira aula do curso de HTML, iremos aprender os comandos básicos para criar uma página de Internet.</p>
+                        <a href="https://youtu.be/8dPpZsC6Vg8?feature=shared" class="btn btn-primary" target="_blank">Assistir</a>
+                    </div>
+                </div>
+            </div>
 
-    <main>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/pvf9jX_Ej28/hqdefault.jpg" alt="Imagem do vídeo">
+                    <div class="card-body">
+                        <h5 class="card-title">O que é Bootstrap? Para que serve?</h5>
+                        <p class="card-text">Neste vídeo você vai entender: para que serve o Bootstrap, como utilizá-lo de maneira eficiente em seu projeto, e como criar um site moderno, responsivo e funcional.</p>
+                        <a href="https://youtu.be/pvf9jX_Ej28?feature=shared" class="btn btn-primary" target="_blank">Assistir</a>
+                    </div>
+                </div>
+            </div>
 
+
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card mt-3">
+                    <img class="card-img-top" src="https://img.youtube.com/vi/Gp1Mb3_fxbg/hqdefault.jpg" alt="Imagem do vídeo">
+                    <div class="card-body">
+                        <h5 class="card-title">Tutorial Bootstrap - Criando tela de Login</h5>
+                        <p class="card-text">Iremos criar uma interface de formulário de login do zero, usando apenas o Bootstrap, com foco em simplicidade e  boas práticas de desenvolvimento.</p>
+                        <a href="https://youtu.be/Gp1Mb3_fxbg?feature=shared" class="btn btn-primary" target="_blank">Assistir</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
 
-
-    <footer>
-
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Vídeo Aula. Todos os direitos reservados.</p>
+            <p>
+                <a href="privacidade.html" class="text-white">Política de Privacidade</a> | 
+                <a href="termos.html" class="text-white">Termos de Serviço</a>
+            </p>
+        </div>
     </footer>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
