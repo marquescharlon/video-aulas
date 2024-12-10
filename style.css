@@ -1,0 +1,17 @@
+main {
+font-size: 18pt;
+}
+
+main h1{
+    font-size: 20pt;
+ text-align: center;
+}
+main p{
+   font-size: 15pt; 
+}
+.card-title{
+    font-size: 20pt;
+}
+.card-text{
+    font-size: 15pt;
+}
