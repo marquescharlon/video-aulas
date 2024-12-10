@@ -123,6 +123,28 @@ body {
         width: auto; /* Ajusta a largura do cartão para telas menores */
     }
 }
+/*BOTÃO DE DOWNLOAD*/
+.download-button {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 30px;   /* Adiciona um espaço acima do botão */
+}
+
+.download-button .btn-download {
+    padding: 10px 20px; /* Ajusta o tamanho do botão */
+    font-size: 1.2rem;   /* Aumenta o tamanho do texto do botão */
+    background-color: #000000; /* Cor de fundo preta */
+    color: white; /* Cor do texto branco */
+    border: none;
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.download-button .btn-download:hover {
+    background-color: #333333; /* Cor do botão quando o mouse passar sobre ele (um tom de cinza mais escuro) */
+}
+
+
 
 /*FOOTER*/
 footer{
