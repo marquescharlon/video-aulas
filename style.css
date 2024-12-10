@@ -28,6 +28,24 @@
     width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
 }
  
+/* Texto aNIMADO */
+.texto-animado {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #ee5752;
+    animation: pulsar 2s ease-in-out infinite; /* Animação de pulsar */
+}
+
+/* Animação de pulsar */
+@keyframes pulsar {
+    0%, 100% {
+        opacity: 1; /* Totalmente visível */
+    }
+    50% {
+        opacity: 0.5; /* Meio transparente */
+    }
+}
+
 /*BODY*/
 body {
     font-family: 'Kanit', sans-serif;
@@ -105,6 +123,28 @@ body {
         width: auto; /* Ajusta a largura do cartão para telas menores */
     }
 }
+/*BOTÃO DE DOWNLOAD*/
+.download-button {
+    text-align: center; /* Centraliza o botão */
+    margin-top: 30px;   /* Adiciona um espaço acima do botão */
+}
+
+.download-button .btn-download {
+    padding: 10px 20px; /* Ajusta o tamanho do botão */
+    font-size: 1.2rem;   /* Aumenta o tamanho do texto do botão */
+    background-color: #000000; /* Cor de fundo preta */
+    color: white; /* Cor do texto branco */
+    border: none;
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer;
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.download-button .btn-download:hover {
+    background-color: #333333; /* Cor do botão quando o mouse passar sobre ele (um tom de cinza mais escuro) */
+}
+
+
 
 /*FOOTER*/
 footer{
