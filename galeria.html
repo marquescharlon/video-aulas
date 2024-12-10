@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens - Futebol Brasil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery-item {
+            position: relative;
+            margin-bottom: 15px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .overlay-text {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="background-color: #f0f8ff;">
+
+    <!-- Barra de Navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Futebol Brasil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="inicio.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="noticias.html">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jogos.html">Jogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="galeria.htm">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Corpo da Página - Galeria -->
+    <main class="container mt-4">
+        <h1 class="text-center" style="color: #006400;">Galeria de Imagens - Futebol Brasil</h1>
+        <p class="text-center" style="color: #004d00;">Confira algumas das melhores imagens dos jogos e eventos de futebol.</p>
+
+        <div class="row">
+            <!-- Imagem 1 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/capa3.webp" alt="Jogo entre Palmeiras e Flamengo">
+                <div class="overlay">
+                    <span class="overlay-text">Palmeiras x Flamengo</span>
+                </div>
+            </div>
+
+            <!-- Imagem 2 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/images.jpg" alt="Jogo entre Cruzeiro e Atlético-MG">
+                <div class="overlay">
+                    <span class="overlay-text">Cruzeiro x Atlético-MG</span>
+                </div>
+            </div>
+
+            <!-- Imagem 3 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/4827655_ce0932f4b8ba31c.jpg" alt="Jogo entre São Paulo e Corinthians">
+                <div class="overlay">
+                    <span class="overlay-text">São Paulo x Corinthians</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Imagem 4 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/images2.jpg" alt="Jogo Internacional">
+                <div class="overlay">
+                    <span class="overlay-text">Internacional x Barcelona</span>
+                </div>
+            </div>
+
+            <!-- Imagem 5 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img 3.avif" alt="Jogo entre Flamengo e Atlético-MG">
+                <div class="overlay">
+                    <span class="overlay-text">Flamengo x Atlético-MG</span>
+                </div>
+            </div>
+
+            <!-- Imagem 6 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/1661672119-00ab644a-bc07-40a8-b849-40fa3e496739.webp" alt="Jogo entre Palmeiras e São Paulo">
+                <div class="overlay">
+                    <span class="overlay-text">Palmeiras x São Paulo</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Imagem 7 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/images3.jpg" alt="Jogo entre Flamengo e Internacional">
+                <div class="overlay">
+                    <span class="overlay-text">Flamengo x Internacional</span>
+                </div>
+            </div>
+
+            <!-- Imagem 8 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/imagens 4.jpg" alt="Jogo entre São Paulo e Atlético-MG">
+                <div class="overlay">
+                    <span class="overlay-text">São Paulo x Atlético-MG</span>
+                </div>
+            </div>
+
+            <!-- Imagem 9 -->
+            <div class="col-md-4 gallery-item">
+                <img src="img/imagens 5.jpg" alt="Jogo entre Cruzeiro e Flamengo">
+                <div class="overlay">
+                    <span class="overlay-text">Cruzeiro x Flamengo</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <h4>Inscreva-se para Receber Novidades</h4>
+            <form>
+                <div class="form-group">
+                    <label for="email">Digite seu e-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Inscrever-se</button>
+            </form>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script s

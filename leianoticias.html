@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícias de Futebol</title>
+  <!-- Link para o CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="bg-dark text-white p-4">
+    <div class="container">
+      <h1 class="display-4">Notícias de Futebol</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="inicio.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="campeonato.html">Campeonatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Times</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Corpo da página com as notícias -->
+  <main class="container my-5">
+    <div class="row">
+      <!-- Notícia em Destaque -->
+      <div class="col-md-8">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Notícia em Destaque">
+          <div class="card-body">
+            <h5 class="card-title">Título da Notícia Principal</h5>
+            <p class="card-text">Resumo da notícia sobre um jogo importante, uma contratação ou outra novidade do futebol. Detalhes adicionais podem ser inseridos aqui.</p>
+            <a href="#" class="btn btn-primary">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Últimas Notícias -->
+      <div class="col-md-4">
+        <h3>Últimas Notícias</h3>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">
+            <h5 class="mb-1">Notícia 1</h5>
+            <p class="mb-1">Resumo rápido sobre a notícia 1 do futebol.</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <h5 class="mb-1">Notícia 2</h5>
+            <p class="mb-1">Resumo rápido sobre a notícia 2 do futebol.</p>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <h5 class="mb-1">Notícia 3</h5>
+            <p class="mb-1">Resumo rápido sobre a notícia 3 do futebol.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Notícias de Futebol. Todos os direitos reservados.</p>
+      <p>Sigam-nos nas redes sociais:</p>
+      <a href="#" class="text-white me-3">Facebook</a>
+      <a href="#" class="text-white me-3">Twitter</a>
+      <a href="#" class="text-white">Instagram</a>
+    </div>
+  </footer>
+
+  <!-- Script do Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
