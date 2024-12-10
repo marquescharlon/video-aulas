@@ -60,48 +60,146 @@
   <!-- Menu de Abas (nav-underline) -->
   <ul class="nav nav-underline" id="myTab" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" id="instalacao-tab" data-bs-toggle="tab" data-bs-target="#instalacao" role="tab" aria-controls="instalacao" aria-selected="true">Instalação</a>
+      <a class="nav-link active" id="introducao-tab" data-bs-toggle="tab" data-bs-target="#introducao" role="tab" aria-controls="introducao" aria-selected="true">Introdução</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="configuracao-tab" data-bs-toggle="tab" data-bs-target="#configuracao" role="tab" aria-controls="configuracao" aria-selected="false">Configuração</a>
+      <a class="nav-link" id="componentes-tab" data-bs-toggle="tab" data-bs-target="#componentes" role="tab" aria-controls="componentes" aria-selected="false">Componentes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="cuidados-tab" data-bs-toggle="tab" data-bs-target="#cuidados" role="tab" aria-controls="cuidados" aria-selected="false">Cuidados</a>
+      <a class="nav-link" id="instalacao-tab" data-bs-toggle="tab" data-bs-target="#instalacao" role="tab" aria-controls="instalacao" aria-selected="false">Instalação</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="suporte-tab" data-bs-toggle="tab" data-bs-target="#suporte" role="tab" aria-controls="suporte" aria-selected="false">Suporte</a>
+        <a class="nav-link" id="configuracao-tab" data-bs-toggle="tab" data-bs-target="#configuracao" role="tab" aria-controls="configuracao" aria-selected="false">Configuração</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" id="procedimentos-tab" data-bs-toggle="tab" data-bs-target="#procedimentos" role="tab" aria-controls="procedimentos" aria-selected="false">Procedimentos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="preservacao-tab" data-bs-toggle="tab" data-bs-target="#preservacao" role="tab" aria-controls="preservacao" aria-selected="false">Preservação/Manutenção</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="perguntas-tab" data-bs-toggle="tab" data-bs-target="#perguntas" role="tab" aria-controls="perguntas" aria-selected="false">Perguntas Frequentes (FAQ)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="suporte-tab" data-bs-toggle="tab" data-bs-target="#suporte" role="tab" aria-controls="suporte" aria-selected="false">Suporte</a>
+      </li>
   </ul>
 
   <!-- Conteúdo das Abas -->
   <div class="tab-content mt-3" id="myTabContent">
+    <!-- Aba Introdução -->
+    <div class="tab-pane fade show active" id="introducao" role="tabpanel" aria-labelledby="introducao-tab">
+      <h3>Introdução ao Sistema</h3>
+      <p>O Sistema de Poltronas Inteligentes foi desenvolvido para otimizar a experiência do cliente em cinemas, garantindo o cumprimento das reservas e prevenindo ocupações indevidas. O sistema é composto por luzes de LED integradas, QR codes exclusivos, e uma interface administrativa para controle.</p>
+      <!-- Adicione mais conteúdo aqui -->
+    </div>
+
+    <!-- Aba Componentes -->
+    <div class="tab-pane fade" id="componentes" role="tabpanel" aria-labelledby="componentes-tab">
+      <h3>Componentes do Sistema</h3>
+      <p><dtrong>Poltronas Equipadas</dtrong>
+        -Luzes de LED instaladas em cada assento.
+        -Suporte para QR code em material resistente e de fácil acesso.
+        <strong>Interface do Sistema</strong>
+        -Software para interface dos funcionários.
+        -Aplicativo ou website do cinema com integração ao sistema.
+        <strong>Conexão e Infraestrutura</strong>
+        -Rede Wi-Fi ou cabeamento para conexão dos dispositivos.
+        -Fontes de energia elétrica para luzes LED e outros componentes.
+        <strong>Material de Suporte</strong>
+        -Manuais físicos e vídeos tutoriais.
+        -Adesivos e cartazes explicativos para clientes.</p>
+      <!-- Adicione mais conteúdo aqui -->
+    </div>
+
     <!-- Aba Instalação -->
-    <div class="tab-pane fade show active" id="instalacao" role="tabpanel" aria-labelledby="instalacao-tab">
-      <h3>Instalação</h3>
-      <p>Instruções detalhadas sobre como instalar o sistema de poltronas inteligentes. Inclua informações sobre como conectar os LEDs, configurar o QR code e ajustar as configurações iniciais.</p>
+    <div class="tab-pane fade" id="instalacao" role="tabpanel" aria-labelledby="instalacao-tab">
+      <h3>Etapas de Instalação</h3>
+      <p><strong>3.1. Planejamento</strong>
+        -Mapeie as poltronas na planta do cinema e numere-as digitalmente.
+        -Avalie a capacidade elétrica e a necessidade de roteadores ou hubs de rede para cada sala.
+        <strong>3.2. Instalação Física</strong>
+        -Fixe os LEDs em posição discreta e visível no encosto ou braço das poltronas.
+        -Instale os QR codes em um suporte resistente próximo ao assento, preferencialmente à altura dos olhos.
+        -Configure o cabeamento ou dispositivos sem fio para os LEDs.
+        <strong>3.3. Configuração do Sistema</strong>
+        -Vincule os QR codes às poltronas por meio do software.
+        -Teste as luzes LED e certifique-se de que respondem ao sistema.
+        -Treine os funcionários para utilizarem a interface administrativa.
+        <strong>3.4. Testes Operacionais</strong>
+        -Simule uma sessão de cinema para verificar o funcionamento do sistema.
+        -Avalie o tempo de resposta das luzes ao uso dos QR codes.
+        -Garanta que o sistema permita o controle remoto por parte dos funcionários.</p>
       <!-- Adicione mais conteúdo aqui -->
     </div>
 
-    <!-- Aba Configuração -->
+    <!-- Aba Configurações -->
     <div class="tab-pane fade" id="configuracao" role="tabpanel" aria-labelledby="configuracao-tab">
-      <h3>Configuração</h3>
-      <p>Explique como configurar o sistema, como personalizar as luzes de LED, ajustar as preferências do cliente e usar a interface de funcionários.</p>
+      <h3>Configurações e Testes</h3>
+      <p><strong>Integração com o Aplicativo:</strong> Certifique-se de que o aplicativo do cinema reconheça os QR codes e permita desativar as luzes em tempo real.
+        <tsrong>Testes de Tolerância:</tsrong> Simule atrasos para testar o tempo limite (10 minutos) e o funcionamento da interface administrativa.
+        <strong>Notificações e Denúncias:</strong> Garanta que o recurso de denúncia funcione de forma anônima e alerte os funcionários em tempo real.</p>
       <!-- Adicione mais conteúdo aqui -->
     </div>
 
-    <!-- Aba Cuidados -->
-    <div class="tab-pane fade" id="cuidados" role="tabpanel" aria-labelledby="cuidados-tab">
-      <h3>Cuidados</h3>
-      <p>Orientações sobre como cuidar do sistema de poltronas inteligentes, garantir a durabilidade dos LEDs e realizar a manutenção periódica.</p>
-      <!-- Adicione mais conteúdo aqui -->
-    </div>
+    <!--Aba Procedimentos-->
+    <div class="tab-pane fade" id="procedimentos" role="tabpanel" aria-labelledby="procedimentos-tab">
+        <h3>Procedimentos Operacionais</h3>
+        <p><strong>5.1. Durante a Sessão</strong>
+            -Antes do início, o sistema ativará as luzes de LED das poltronas reservadas.
+            -Clientes deverão desativar as luzes ao chegar utilizando o QR code.
+            -Funcionários devem monitorar poltronas ainda acesas após 10 minutos.
+            <strong>5.2. Após a Sessão</strong>
+            -Inspecione as poltronas para garantir a integridade física dos LEDs e QR codes.
+            -Realize o reinício do sistema para a próxima sessão.
+            </p>
+        <!-- Adicione mais conteúdo aqui -->
+      </div>
 
-    <!-- Aba Suporte -->
+    <!--Abra Preservação-->
+    <div class="tab-pane fade" id="preservacao" role="tabpanel" aria-labelledby="preservacao-tab">
+        <h3>Dicas de Preservação e Manutenção</h3>
+        <p><strong>Manutenção Semanal:</strong>
+            Verifique a fixação dos LEDs e QR codes.
+            Teste a funcionalidade das luzes em todas as poltronas.
+
+            <strong>Cuidados com o QR Code:</strong>
+            Limpe regularmente com um pano úmido.
+            Substitua os QR codes danificados para evitar falhas na leitura.
+
+            <strong>Treinamento Regular:</strong>       
+            Atualize os funcionários sobre o uso da interface administrativa.
+            Simule situações para prática de respostas rápidas a denúncias.
+
+            <strong>Atenção à Energia:</strong>
+            Inspecione cabos e conexões para prevenir falhas elétricas.
+            Garanta que a sala tenha um sistema de backup para quedas de energia.
+
+            <strong>Feedback dos Clientes:</strong>
+            Disponibilize um canal para clientes reportarem problemas no sistema.</p>
+        <!-- Adicione mais conteúdo aqui -->
+      </div>
+    <!--Aba Perguntas-->
+    <div class="tab-pane fade" id="perguntas" role="tabpanel" aria-labelledby="perguntas-tab">
+        <h3>Perguntas Frequentes (FAQ)</h3>
+        <p><strong>Q1: O que fazer se a luz de LED não apagar?</strong>
+            R: Confirme se o QR code foi lido corretamente. Caso persista, a luz pode ser desativada manualmente pela interface administrativa.
+            
+            <strong>Q2: Como lidar com QR codes danificados?</strong>
+            R: Substitua o suporte pelo reserva disponível. Recomenda-se manter peças extras em estoque.
+            
+            <strong>Q3: O que acontece em caso de ocupação indevida?</strong>
+            R: Oriente o infrator e, em caso de reincidência, aplique a política de cobrança de taxas definida pelo cinema.</p>
+        <!-- Adicione mais conteúdo aqui -->
+      </div>
+    <!--Aba Suporte-->
     <div class="tab-pane fade" id="suporte" role="tabpanel" aria-labelledby="suporte-tab">
-      <h3>Suporte</h3>
-      <p>Informações sobre como entrar em contato com a equipe de suporte, como resolver problemas comuns e onde encontrar mais recursos ou manuais.</p>
-      <!-- Adicione mais conteúdo aqui -->
-    </div>
+        <h3>Contato para Suporte</h3>
+        <p><strong>Email:</strong> suporte@sistemadepoltronas.com.br
+            <strong>Telefone:</strong> 0800-123-4567
+            <strong>WhatsApp:</strong> +55 11 91234-5678</p>
+        <!-- Adicione mais conteúdo aqui -->
+      </div>
   </div>
 </div>
 
@@ -110,6 +208,10 @@
     <a href="path/to/manual.pdf" download="Manual_Sistema_Poltronas_Inteligentes" class="btn btn-download">Baixar Manual em PDF</a>
 </div>
 </main>
+<!--TEXTO ANIMADO-->
+<div class="texto-animado">
+    <strong>Projeto Destinado a Conclusão de Curso T.I.P.I Senai</strong> 
+</div>
 <footer>
 
 <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->

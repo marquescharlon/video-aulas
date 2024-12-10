@@ -30,7 +30,7 @@
  
 /* Texto aNIMADO */
 .texto-animado {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-align: center;
     color: #ee5752;
     animation: pulsar 2s ease-in-out infinite; /* Animação de pulsar */
