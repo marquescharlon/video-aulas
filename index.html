@@ -1,19 +1,239 @@
 <!DOCTYPE html="pt-BR">
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Vídeo Aula</title>
-    </head>
-    <body>
-        <header>
-            <!-- Adicionar a barra de menu -->
-        </header>
-        <main>
-            <!-- Adicionar quadro cards dentro de um container -->
-            <!-- Esteja atento a distância entre os cards, o capricho faz parte do desenvolvimento -->
-        </main>
-        <footer>
-            <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
-        </footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <html lang="pt-BR">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=evidence-width, initial-scale=1.0" />
+
+    <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS Local-->
+    <link rel="stylesheet" href="./style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="img/Logo BARRA.png" type="image/x-icon">
+    <title>LYS TEC.</title>
+</head>
+
+<body>
+    <header>
+        <!-- BARRA DE MENU -->
+        <nav class="navbar navbar-expand-lg bg-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Logo NAVBAR.png" alt="Logo" width="150" height="85">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: white;" href="como-funciona.html">Como Funciona</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: white;" href="projeto.html">Projeto LYS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: white;" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Imagem no topo -->
+    <div class="image-banner">
+        <img src="img/inicio.jpg" alt="Imagem ilustrativa do projeto" class="img-fluid">
+    </div>
+
+    <!--TEXTO ANIMADO-->
+    <div class="texto-animado">
+        <strong>Projeto Fictício para Conclusão de Curso e Inova Senai</strong> 
+    </div>    
+
+<!-- CARDS MAIORES E MENORES -->
+<div class="row bg-row-1">
+   <!-- Linha 1 -->
+<div class="row bg-row-1">
+    <!-- Card 1 -->
+    <div class="col-6 d-flex justify-content-center">
+        <div class="card card-large" style="width: 55rem; height: 30rem; background-color: #a75c5c; color: white;">
+            <div class="card-body">
+                <h1 class="card-title">Entenda o Funcionamento</h1>
+                <h4>Para Cinéfilos: Passo a passo simples e intuitivo para uso.</h4>
+            </div>
+            <div class="card card-small" style="width: 40rem; height: 18rem; background-image: url('img/small-card.1.png'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <a href="como-funciona.html" class="btn btn-light">Ler Instruções</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-6 d-flex justify-content-center">
+        <div class="card card-large" style="width: 55rem; height: 30rem; background-color: #fceded; color: rgb(122, 75, 75);">
+            <div class="card-body">
+                <h1 class="card-title">A Origem do LYS</h1>
+                <h4>Descubra as ideias por trás do LYS.</h4>
+            </div>
+            <div class="card card-small" style="width: 40rem; height: 18rem; background-image: url('img/small-card.2.png'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <a href="projeto.html" class="btn btn-light">Ver História</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Linha 2 -->
+<div class="row bg-row-2">
+    <!-- Card 3 -->
+    <div class="col-6 d-flex justify-content-center">
+        <div class="card card-large" style="width: 55rem; height: 30rem; background-color: rgb(122, 75, 75); color: white;">
+            <div class="card-body">
+                <h1 class="card-title">Entre em Contato</h1>
+                <h4>Preencha nosso formulário.</h4>
+            </div>
+            <div class="card card-small" style="width: 40rem; height: 18rem; background-image: url('img/small-card.3.png'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <a href="contato.html" class="btn btn-light">Contate-nos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="col-6 d-flex justify-content-center">
+        <div class="card card-large" style="width: 55rem; height: 30rem; color: rgb(128, 69, 69);">
+            <div class="card-body">
+                <h1 class="card-title">Manual de Instalação</h1>
+                <h4>Para os Cinemas: Configure com praticidade e segurança.</h4>
+            </div>
+            <div class="card card-small" style="width: 40rem; height: 18rem; background-image: url('img/small-card.4.webp'); background-size: cover; background-position: center;">
+                <div class="card-body">
+                    <a href="manual.html" class="btn btn-light">Manual de Instalação</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </main>
+    <footer>
+        <div class="container">
+                <!-- Coluna para o Aplicativo -->
+                <div class="row border-bottom pb-4 mb-4"> <!--Linha branca ao fim das colunas-->
+                <div class="col-md-4">
+                    <h5>Baixe nosso Aplicativo!</h5>
+                    <ul class="list-unstyled">
+                        <li><h5>LYS TEC.</h5></li>
+                        <!-- Logo principal do aplicativo LYS Tec. -->
+                        <li>
+                            <img src="img/Logo App FOOTER.png" alt="Logo LYS Tec." style="width: 150px;">
+                        </li>
+                        <li>
+                            <p><strong>Disponível nas seguintes plataformas</strong></p>
+                        </li>
+                        <li class="d-flex justify-content-left">
+                            <a href="https://play.google.com/store" target="_blank" style="margin-right: 10px;">
+                                <img src="img/Google Play FOOTER.png" alt="Google Play" style="width: 50px;">
+                            </a>
+                            <a href="https://apps.apple.com" target="_blank">
+                                <img src="img/App Store FOOTER.png" alt="App Store" style="width: 50px;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- Coluna para Redes Sociais -->
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://instagram.com/lystecmovie" target="_blank">
+                                <img src="img/Instagram FOOTER.png" alt="Instagram Logo" class="social-logo" style="width: 50px; height: 50px;">
+                                @lystecmovie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/lystecmovie" target="_blank">
+                                <img src="img/Facebook FOOTER.png" alt="Facebook Logo" class="social-logo" style="width: 50px; height: 50px;">
+                                facebook.com/lystecmovie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/company/lystecmovie" target="_blank">
+                                <img src="img/Linkedin FOOTER.png" alt="LinkedIn Logo" class="social-logo" style="width: 50px; height: 50px;">
+                                LYS Tec. Movie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:lystec-tecnologia-e-cinema@exemplo.com" target="_blank">
+                                <img src="img/E-mail FOOTER.png" alt="Email Logo" class="social-logo" style="width: 50px; height: 50px;">
+                                lystec-tecnologia-e-cinema
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <!-- Coluna da Newsletter -->
+                <div class="col-md-4">
+                    <h5>Assine nossa Newsletter</h5>
+                    <p>Receba as novidades diretamente no seu e-mail.</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100">Inscrever-se</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Linha única para links do site -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <ul class="list-unstyled d-flex justify-content-center">    
+                        <li class="mx-3"><a href="#">Como Funciona</a></li>
+                        <li class="mx-3"><a href="#">Projeto LYS</a></li>
+                        <li class="mx-3"><a href="#">Manual de Instalação</a></li>
+                        <li class="mx-3"><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Linha do Copyright -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>© LYS TEC. MOVIE 2024. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+      <!-- Adicionar quadro cards dentro de um container -->
+    <!-- Esteja atento a distância entre os cards, o capricho faz parte do desenvolvimento -->
+  </main>
+  <footer>
+   
+    <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
 </html>

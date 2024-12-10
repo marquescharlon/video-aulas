@@ -1,0 +1,138 @@
+/* NAVBAR */
+.bg-navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Kanit', sans-serif;
+    font-size: larger;
+    background-color: #a75c5c;
+    padding: 10px 20px;
+  }
+
+  .navbar a {
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ad1717; /* Cor do sublinhado */
+    left: 0;
+    bottom: -2px;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
+}
+ 
+/*BODY*/
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #e2b8b82d;
+}
+
+/* Texto pulsando */
+.texto-animado {
+    font-size: 4.5rem;
+    text-align: center;
+    color: #ee5752;
+    animation: pulsar 2s ease-in-out infinite; /* Animação de pulsar */
+}
+
+/* Animação de pulsar */
+@keyframes pulsar {
+    0%, 100% {
+        opacity: 1; /* Totalmente visível */
+    }
+    50% {
+        opacity: 0.5; /* Meio transparente */
+    }
+}
+
+/*IMAGEM DO BANNER*/
+.image-banner img {
+    height: 50vh; /* Por exemplo, 50% da altura da tela */
+    object-fit: cover; /* Ajusta o conteúdo da imagem para cobrir o espaço sem deformar */
+}
+
+/* ROWS */
+.row {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card */
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f8d9d9; /* Altera a cor do botão */
+    color: rgb(148, 38, 38); /* Cor do texto ao passar o mouse */
+}
+
+/* Centralizar conteúdo dos cards grandes */
+.card-large .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Alinha texto no centro */
+    /* Garante que o flex ocupe todo o espaço */
+}
+
+/* Centralizar conteúdo dos cards menores */
+.card-small .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Mesma lógica para ocupar espaço */
+}
+
+/* Ajuste de margens entre o título e o texto */
+.card-title {
+    margin-bottom: 1rem;
+}
+
+
+/* Cartões responsivos */
+.card {
+    margin: 0 auto; 
+    justify-content: baseline;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+}
+
+/* Ajuste para dispositivos menores */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Muda para empilhado em telas pequenas */
+    }
+
+    .col-6 {
+        width: 100%; /* Cada cartão ocupa toda a largura da linha */
+    }
+
+    .card {
+        width: auto; /* Ajusta a largura do cartão para telas menores */
+    }
+}
+
+/*FOOTER*/
+footer{
+    background-color: #d3c0c0;
+}
+
+footer a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Herda a cor do texto do footer */
+}
+navbar
+{
+background-color:#f9f5f2;
+}
