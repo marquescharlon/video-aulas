@@ -63,4 +63,13 @@ footer {
     background-color: #636363;  
     padding: 20px; 
     text-align: center; 
-}  
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1400px; 
+    height: auto;
+}
