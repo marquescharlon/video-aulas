@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Vídeo Aula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Vídeo Aula</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="cursos.html">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1>Entre em Contato Conosco</h1>
+        <p>Se você tem alguma dúvida, sugestão ou precisa de ajuda, preencha o formulário abaixo e entraremos em contato o mais rápido possível!</p>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form action="enviar_mensagem.php" method="POST">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Endereço de E-mail</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="assunto" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="assunto" name="assunto" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Informações de Contato</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Email:</strong> contato@videoaula.com.br</li>
+                    <li><strong>Telefone:</strong> (11) 98765-4321</li>
+                    <li><strong>Endereço:</strong> Rua Exemplo, 123, São Paulo, SP</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <div class="container">
+            <hr>
+            <p class="text-muted">&copy; 2024 Vídeo Aula. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
