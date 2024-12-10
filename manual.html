@@ -54,19 +54,69 @@
     </header>
 
     <main>
-        <!--Teste de tablist vinda de loft.com-->
-        <ul class="nav nav-underline">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+        <!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual - Sistema de Poltronas Inteligentes</title>
+  <!-- Link para o CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <!-- Menu de Abas (nav-underline) -->
+  <ul class="nav nav-underline" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="instalacao-tab" data-bs-toggle="tab" data-bs-target="#instalacao" role="tab" aria-controls="instalacao" aria-selected="true">Instalação</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="configuracao-tab" data-bs-toggle="tab" data-bs-target="#configuracao" role="tab" aria-controls="configuracao" aria-selected="false">Configuração</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="cuidados-tab" data-bs-toggle="tab" data-bs-target="#cuidados" role="tab" aria-controls="cuidados" aria-selected="false">Cuidados</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="suporte-tab" data-bs-toggle="tab" data-bs-target="#suporte" role="tab" aria-controls="suporte" aria-selected="false">Suporte</a>
+    </li>
+  </ul>
+
+  <!-- Conteúdo das Abas -->
+  <div class="tab-content mt-3" id="myTabContent">
+    <!-- Aba Instalação -->
+    <div class="tab-pane fade show active" id="instalacao" role="tabpanel" aria-labelledby="instalacao-tab">
+      <h3>Instalação</h3>
+      <p>Instruções detalhadas sobre como instalar o sistema de poltronas inteligentes. Inclua informações sobre como conectar os LEDs, configurar o QR code e ajustar as configurações iniciais.</p>
+      <!-- Adicione mais conteúdo aqui -->
+    </div>
+
+    <!-- Aba Configuração -->
+    <div class="tab-pane fade" id="configuracao" role="tabpanel" aria-labelledby="configuracao-tab">
+      <h3>Configuração</h3>
+      <p>Explique como configurar o sistema, como personalizar as luzes de LED, ajustar as preferências do cliente e usar a interface de funcionários.</p>
+      <!-- Adicione mais conteúdo aqui -->
+    </div>
+
+    <!-- Aba Cuidados -->
+    <div class="tab-pane fade" id="cuidados" role="tabpanel" aria-labelledby="cuidados-tab">
+      <h3>Cuidados</h3>
+      <p>Orientações sobre como cuidar do sistema de poltronas inteligentes, garantir a durabilidade dos LEDs e realizar a manutenção periódica.</p>
+      <!-- Adicione mais conteúdo aqui -->
+    </div>
+
+    <!-- Aba Suporte -->
+    <div class="tab-pane fade" id="suporte" role="tabpanel" aria-labelledby="suporte-tab">
+      <h3>Suporte</h3>
+      <p>Informações sobre como entrar em contato com a equipe de suporte, como resolver problemas comuns e onde encontrar mais recursos ou manuais.</p>
+      <!-- Adicione mais conteúdo aqui -->
+    </div>
+  </div>
+</div>
+
+<!-- Script do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
     </main>
