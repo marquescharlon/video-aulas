@@ -98,31 +98,31 @@ body {
 
 /* Ajuste de margens entre o título e o texto */
 .card-title {
-    margin-bottom: 1rem;
+    margin-bottom: 5%;
 }
 
 
 /* Cartões responsivos */
 .card {
-    margin: 0 auto; 
+    margin: 20; 
     justify-content: baseline;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
 }
 
-/* Ajuste para dispositivos menores */
-@media (max-width: 768px) {
-    .row {
-        flex-direction: column; /* Muda para empilhado em telas pequenas */
-    }
-
-    .col-6 {
-        width: 100%; /* Cada cartão ocupa toda a largura da linha */
-    }
-
+@media screen and (max-width: 768px) {
     .card {
-        width: auto; /* Ajusta a largura do cartão para telas menores */
+        width: 90%; /* Reduz a largura do card em telas menores */
+        padding: 0.5rem; /* Menos padding em telas menores */
     }
 }
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%; /* Em telas muito pequenas, o card ocupa 100% */
+        padding: 0.25rem; /* Reduz ainda mais o padding */
+    }
+}
+
 /*BOTÃO DE DOWNLOAD*/
 .download-button {
     text-align: center; /* Centraliza o botão */
