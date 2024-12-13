@@ -144,8 +144,8 @@ body {
     background-color: #333333; /* Cor do botão quando o mouse passar sobre ele (um tom de cinza mais escuro) */
 }
 
-.tab-pane h3 {
-    color: #4CAF50;
+.tab-pane h3, h4 {
+    color: #610f0f;
     margin-bottom: 15px;
   }
   
