@@ -195,40 +195,91 @@
     <!-- Aba Instalação -->
     <div class="tab-pane fade" id="instalacao" role="tabpanel" aria-labelledby="instalacao-tab">
         <h3>Etapas de Instalação</h3>
-        <p><strong>3.1. Planejamento</strong>
-          -Mapeie as poltronas na planta do cinema e numere-as digitalmente.
-          -Avalie a capacidade elétrica e a necessidade de roteadores ou hubs de rede para cada sala.
-          <strong>3.2. Instalação Física</strong>
-          -Fixe os LEDs em posição discreta e visível no encosto ou braço das poltronas.
-          -Instale os QR codes em um suporte resistente próximo ao assento, preferencialmente à altura dos olhos.
-          -Configure o cabeamento ou dispositivos sem fio para os LEDs.
-          <strong>3.3. Configuração do Sistema</strong>
-          -Vincule os QR codes às poltronas por meio do software.
-          -Teste as luzes LED e certifique-se de que respondem ao sistema.
-          -Treine os funcionários para utilizarem a interface administrativa.
-          <strong>3.4. Testes Operacionais</strong>
-          -Simule uma sessão de cinema para verificar o funcionamento do sistema.
-        -Avalie o tempo de resposta das luzes ao uso dos QR codes.
-        -Garanta que o sistema permita o controle remoto por parte dos funcionários.</p>
-      <!-- Adicione mais conteúdo aqui -->
+        <h4>1. Planejamento</h4>
+<ol>
+  <li>Mapeie as poltronas na planta do cinema e numere-as digitalmente.</li>
+  <li>Avalie a capacidade elétrica e a necessidade de roteadores ou hubs de rede para cada sala.</li>
+</ol>
+<hr>
+<h4>2. Instalação Física</h4>
+<ol>
+  <li>Fixe os LEDs em posição discreta e visível no encosto ou braço das poltronas.</li>
+  <li>Instale os QR codes em um suporte resistente próximo ao assento, preferencialmente à altura dos olhos.</li>
+  <li>Configure o cabeamento ou dispositivos sem fio para os LEDs.</li>
+</ol>
+<div class="alert alert-info" role="alert">
+    Dica: Verifique a estabilidade da rede Wi-Fi antes de conectar os LEDs para evitar atrasos na comunicação.
+  </div>
+  <h4>3. Revisão Final</h4>
+  <p>Certifique-se de que todos os LEDs e QR codes estejam funcionando corretamente e que os funcionários saibam como usar o sistema. Caso surjam dúvidas, acesse a aba <strong>Suporte</strong>.</p>      
     </div>
 
     <!-- Aba Configurações -->
     <div class="tab-pane fade" id="configuracao" role="tabpanel" aria-labelledby="configuracao-tab">
-      <h3>Configurações e Testes</h3>
-      <p><strong>Integração com o Aplicativo:</strong> Certifique-se de que o aplicativo do cinema reconheça os QR codes e permita desativar as luzes em tempo real.
-        <tsrong>Testes de Tolerância:</tsrong> Simule atrasos para testar o tempo limite (10 minutos) e o funcionamento da interface administrativa.
-        <strong>Notificações e Denúncias:</strong> Garanta que o recurso de denúncia funcione de forma anônima e alerte os funcionários em tempo real.</p>
-      <!-- Adicione mais conteúdo aqui -->
+        <h3>Configurações e Testes</h3>
+        <p>
+            <strong>1. Integração com o Aplicativo:</strong> 
+            Certifique-se de que o aplicativo ou site do cinema reconheça corretamente os QR codes vinculados a cada poltrona. Para isso:
+            <ul>
+              <li>Teste a leitura dos QR codes em diferentes dispositivos (smartphones, tablets).</li>
+              <li>Verifique se as luzes de LED apagam ou ativam em tempo real ao escanear o QR code.</li>
+              <li>Simule cenários em que múltiplas poltronas sejam ativadas simultaneamente para verificar a estabilidade do sistema.</li>
+            </ul>
+          </p>
+          <p>
+            <strong>2. Configuração de Tempo de Tolerância:</strong> 
+            Ajuste o limite de tempo para cada poltrona (padrão: 10 minutos). Realize testes simulando diferentes atrasos para:
+            <ul>
+              <li>Certificar-se de que as luzes retornem ao estado padrão após o tempo expirar.</li>
+              <li>Garantir que notificações sejam enviadas corretamente à interface administrativa.</li>
+            </ul>
+          </p>
+          <p>
+            <strong>3. Notificações e Denúncias:</strong> 
+            Valide o funcionamento do sistema de denúncia, garantindo que:
+            <ul>
+              <li>As denúncias sejam anônimas e direcionadas ao sistema administrativo.</li>
+              <li>Os funcionários recebam alertas em tempo real.</li>
+              <li>O histórico de denúncias seja armazenado para revisão posterior, se necessário.</li>
+            </ul>
+          </p>
+          <p>
+            <strong>4. Configurações de Rede:</strong> 
+            O sistema depende de uma conexão estável. Siga estas etapas para configurar a rede:
+            <ul>
+              <li>Certifique-se de que a rede Wi-Fi ou cabeada tenha largura de banda suficiente para suportar todas as poltronas conectadas.</li>
+              <li>Teste a conectividade de cada dispositivo no ambiente do cinema.</li>
+              <li>Configure backups de conexão (como um roteador secundário) para evitar interrupções.</li>
+            </ul>
+          </p>
+          <p>
+            <strong>5. Interface Administrativa:</strong> 
+            Garanta que os funcionários compreendam como usar a interface administrativa:
+            <ul>
+              <li>Realize treinamentos práticos com situações simuladas.</li>
+              <li>Explore recursos de relatórios, controle remoto das luzes e registro de acessos.</li>
+            </ul>
+          </p>
+          <p>
+            <strong>6. Testes Finais:</strong> 
+            Simule sessões completas para:
+            <ul>
+              <li>Validar o desempenho geral do sistema em horários de pico.</li>
+              <li>Identificar possíveis falhas de configuração.</li>
+              <li>Receber feedback da equipe sobre a usabilidade da interface.</li>
+            </ul>
+          </p>
     </div>
 
     <!--Aba Procedimentos-->
     <div class="tab-pane fade" id="procedimentos" role="tabpanel" aria-labelledby="procedimentos-tab">
         <h3>Procedimentos Operacionais</h3>
         <p><strong>5.1. Durante a Sessão</strong>
-            -Antes do início, o sistema ativará as luzes de LED das poltronas reservadas.
-            -Clientes deverão desativar as luzes ao chegar utilizando o QR code.
-            -Funcionários devem monitorar poltronas ainda acesas após 10 minutos.
+            <ul>
+                <li>Antes do início, o sistema ativará as luzes de LED das poltronas reservadas.</li>
+                <li>Clientes deverão desativar as luzes ao chegar utilizando o QR code.</li>
+                <li>Funcionários devem monitorar poltronas ainda acesas após 10 minutos</li>
+            </ul>
             <strong>5.2. Após a Sessão</strong>
             -Inspecione as poltronas para garantir a integridade física dos LEDs e QR codes.
             -Realize o reinício do sistema para a próxima sessão.
