@@ -19,9 +19,62 @@
 </head>
 
 <body>
+
     <header>
-        <!-- Adicionar a barra de menu -->
+
+        <nav class="navbar navbar-expand-lg bg-white border-bottom py-lg-3">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/pictorial-logo.svg" alt="Logo" width="30"
+                        class="d-inline-block align-text-top me-1">
+                    Coldmart
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav px-lg-5">
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown px-lg-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+                                <li><a class="dropdown-item" href="#">Negócios</a></li>
+                                <li><a class="dropdown-item" href="#">Marketing</a></li>
+                                <li><a class="dropdown-item" href="#">Saúde</a></li>
+                                <li><a class="dropdown-item" href="#">Idiomas</a></li>
+                                <li><a class="dropdown-item" href="#">Arte</a></li>
+                                <li><a class="dropdown-item" href="#">Ciências</a></li>
+                                <li><a class="dropdown-item" href="#">Fotografia</a></li>
+                                <li><a class="dropdown-item" href="#">Moda</a></li>
+                                <li><a class="dropdown-item" href="#">Culinária</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link" href="#">Preços</a>
+                        </li>
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link" href="#">Ajuda</a>
+                        </li>
+                    </ul>
+                    <div class="ms-auto mt-1 mt-lg-0">
+                        <button type="button"
+                            class="btn btn-outline-primary d-block d-lg-inline mb-2 m-lg-0">Entrar</button>
+                        <button type="button" class="btn btn-primary d-block d-lg-inline">Cadastre-se grátis</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
     </header>
+
     <main>
         <div class="container-lg my-lg-5 my-4">
             <h4 class="my-4">Cursos populares</h4>
@@ -108,13 +161,16 @@
             </div>
         </div>
     </main>
+
     <footer>
         <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
     </footer>
+
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
