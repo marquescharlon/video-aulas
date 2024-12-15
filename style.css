@@ -16,7 +16,8 @@
     padding: .6em 1.2em;
 }
 
-.btn, .navbar {
+.btn,
+.navbar {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -55,4 +56,12 @@
 
 .nav-link:hover {
     color: var(--color-ice) !important;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
