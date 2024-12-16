@@ -83,4 +83,9 @@ footer {
     list-style-type: none;
     padding-left: 0;
     column-count: 3;
-  }
+}
+
+.card{
+    height: 600px;
+    width: 20rem;
+}
