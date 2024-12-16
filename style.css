@@ -1,0 +1,86 @@
+.navbar {
+   background-color: #7cd3eb !important;
+   font-size: 1rem;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.navbar .navbar-brand, .nav-link {
+    color: beige !important;
+}
+.navbar-brand, .nav-link:hover {
+    color: black !important;
+}
+.nav-link {
+    font-weight: 500;
+    margin-right: 10px;
+}
+.dropdown-menu {
+    background-color: #7cd3eb !important;
+}
+.dropdown-item {
+    color: beige !important;
+}
+.dropdown-item:hover {
+    background-color: beige;
+    color: black !important;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+body {
+    background-image: url(https://cdn.abjnoticias.com.br/abjnoticias-home/2023/11/viagem_america-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px; 
+    width: auto; 
+    object-fit: cover;
+}
+
+
+footer {
+    margin-top: auto;
+    color: beige;
+    padding: auto;
+    font-size: 0.9em;
+}
+
+.container1 {
+    background-color: #000000;  
+    padding: 20px;  
+}  
+.container2 {
+    background-color: #636363;  
+    padding: 20px; 
+    text-align: center; 
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1400px; 
+    height: auto;
+}
+
+.accordion {
+    max-width: 600px;
+    width: 100%;
+}
+.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+    column-count: 3;
+  }
