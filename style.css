@@ -28,7 +28,7 @@
     width: 100%; /* O sublinhado se expande completamente ao passar o mouse */
 }
  
-/* Texto aNIMADO */
+/* TEXTO ANIMADO */
 .texto-animado {
     font-size: 3.5rem;
     text-align: center;
@@ -73,7 +73,7 @@ body {
 
 .btn:hover {
     background-color: #f8d9d9; /* Altera a cor do botão */
-    color: rgb(148, 38, 38); /* Cor do texto ao passar o mouse */
+    color: rgb(148, 38, 38); /* Cor do texto do botão ao passar o mouse */
 }
 
 /* Centralizar conteúdo dos cards grandes */
