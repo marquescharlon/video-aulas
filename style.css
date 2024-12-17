@@ -9,3 +9,20 @@
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
   }
+  /* Navbar */
+.navbar { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #0077b6; /* Azul turismo */ 
+    padding: 15px 30px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar .logo a { 
+    color: white; 
+    font-size: 28px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    letter-spacing: 2px; 
+  }
