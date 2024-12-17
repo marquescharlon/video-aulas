@@ -144,6 +144,34 @@ body {
     background-color: #333333; /* Cor do botão quando o mouse passar sobre ele (um tom de cinza mais escuro) */
 }
 
+/*MENU VERTICAL*/
+.nav-link {
+    color: #751212;
+    padding: 10px 15px; 
+    border-bottom: 3px solid transparent; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    color: rgb(151, 2, 2);
+}
+/*TÍTULOS MENU VERTICAL*/
+.tab-pane h3, h4 {
+    color: #610f0f;
+    margin-bottom: 15px;
+  }
+  
+  .tab-pane ul {
+    margin-left: 20px;
+    list-style-type: square;
+  }
+  
+  .alert-warning {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+  }
+  
 /*FOOTER*/
 footer{
     background-color: #d3c0c0;
