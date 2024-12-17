@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #005f73, #0a9396);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #94d2bd;
+}
+
+nav .buttons {
+    display: flex;
+    align-items: center;
+}
+
+nav .buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+    background: #ee9b00;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav .buttons a:hover {
+    background: #ca6702;
+}
+
+/* Seção de Contato */
+.contato {
+    background-color: #ffffff;
+    padding: 50px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.contato h1, .contato p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contato .form-control {
+    margin-bottom: 20px;
+}
+
+.contato .btn {
+    background-color: #0a9396;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contato .btn:hover {
+    background-color: #005f73;
+}
+
+/* Rodapé */
+footer {
+    background-color: #005f73;
+    color: #fff;
+    padding: 15px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #94d2bd;
+}
