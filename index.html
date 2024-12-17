@@ -1,30 +1,88 @@
-<!DOCTYPE html="pt-BR">
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Turismo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link para o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJv9Udw3fN2mW3t9w8Fe8c9sC/c8KjT0yQ9r6QoE6F0f3zJ9Im7k8kllhzo8" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-  </head>
-    <body>
-        <header>
-            <nav>
-                <div class="logo">Juan Turismo</div>
-                <ul>
-                  <li><a href="index.html">Início</a></li>
-                  <li><a href="destinos.html">Destinos</a></li>
-                  <li><a href="sobre.html">Sobre</a></li>
-                  <li><a href="contato.html">Contato</a></li>
-                </ul>
-              </nav>
-            
-        </header>
-        <main>
-            <!-- Adicionar quadro cards dentro de um container -->
-            <!-- Esteja atento a distância entre os cards, o capricho faz parte do desenvolvimento -->
-        </main>
-        <footer>
-            <!-- Adicionar informações relevantes como: Um formulário para Newsletter , links úteis, redes sociais etc -->
-        </footer>
-    </body>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Juan Turismo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinos.html">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section class="intro text-center py-5">
+            <h1 class="display-4">Bem-vindo à Juan Turismo</h1>
+            <p class="lead">Na Juan Turismo, oferecemos experiências únicas para você explorar os destinos mais incríveis ao redor do mundo. Seja para relaxar em praias paradisíacas ou explorar culturas vibrantes, temos o pacote perfeito para cada tipo de viajante.</p>
+        </section>
+  
+          <section class="destaques">
+              <div class="destino-card">
+                  <h3>Maldivas</h3>
+                  <img src="img/ilhas-maldivas-galeria-vakkaru-resort-02.jpg" alt="Maldivas">
+                  <p>Viva a experiência de relaxar nas águas cristalinas das Maldivas.</p>
+              </div>
+              <div class="destino-card">
+                  <h3>Tóquio</h3>
+                  <img src="img/onde-ficar-tokyo.jpg" alt="Tóquio">
+                  <p>Explore a cultura vibrante e moderna de Tóquio, no Japão.</p>
+              </div>
+              <div class="destino-card">
+                  <h3>Nova York</h3>
+                  <img src="img/Estados-Unidos-Nova-York-shutterstock_248799484.jpg" alt="Nova York">
+                  <p>Conheça os icônicos pontos turísticos de Nova York.</p>
+              </div>
+              <div class="destino-card">
+                  <h3>Rio de Janeiro</h3>
+                  <img src="img/cristo-redentor-3.jpg" alt="Rio de Janeiro">
+                  <p>Desfrute das belezas naturais e da energia contagiante do Rio de Janeiro.</p>
+              </div>
+          </section>
+      </main>
+    
+    <!-- Footer -->
+    <footer class="fixed-bottom text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Juan Turismo. Todos os direitos reservados.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a class="text-white" href="#">Privacidade</a></li>
+                <li class="list-inline-item"><a class="text-white" href="#">Termos de Uso</a></li>
+                <li class="list-inline-item"><a class="text-white" href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS e Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybYbKJbT7rD4pOP0p5ODgD5lbk3v3lXljfY8wSOkf1LJ6wZp7" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8Fq6vKzgrJ8KjT6gmc6vvvStMxZbjpV6gbbT+RuxOd2+" crossorigin="anonymous"></script>
+</body>
 </html>

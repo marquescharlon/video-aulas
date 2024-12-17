@@ -1,93 +1,142 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  body {
-    background-color: #f8f9fa;
-  }
-  
-  /* Navbar */
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background: linear-gradient(90deg, #005f73, #0a9396);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  nav .logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav ul li {
-    margin-left: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #94d2bd;
-  }
-  
-  nav .buttons {
-    display: flex;
-    align-items: center;
-  }
-  
-  nav .buttons a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 15px;
-    background: #ee9b00;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-  }
-  
-  nav .buttons a:hover {
-    background: #ca6702;
-  }
-  
-  /* Responsivo */
-  @media (max-width: 768px) {
-    nav {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    nav ul {
-      margin-top: 10px;
-      flex-direction: column;
-    }
-  
-    nav ul li {
-      margin: 10px 0;
-    }
-  
-    nav .buttons {
-      margin-top: 10px;
-    }
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #005f73, #0a9396);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #94d2bd;
+}
+
+/* Main Section */
+main {
+  padding: 50px 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Destinos Section */
+.destaques {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.destino-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 22%;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.destino-card:hover {
+  transform: translateY(-10px);
+}
+
+.destino-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.destino-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.destino-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #005f73;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #94d2bd;
+}
